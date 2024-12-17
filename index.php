@@ -38,13 +38,17 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
         <nav class="navbar navbar-expand-lg text-light bg-dark border-bottom sticky-top p-0 m-0">
             <div class="container-fluid d-flex justify-content-between">
                 <!-- Title -->
-                <a class="navbar-brand text-light" href="#"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</a>
+                <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
                 <!-- Navigation -->
                 <div class="d-flex flex-row">
                     <a class="btn btn-outline-light fs-6 me-3" href="#about">Over mij</a>
 
-                    <a class="btn btn-outline-light fs-6 me-3" href="#categories">Categorieën</a>
+                    <?php
+                    foreach ($projectData as $category) {
+                        echo '<a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6 me-3">' . $category['category'] . '</a>';
+                    }
+                    ?>
 
                     <a class="btn btn-outline-light fs-6" href="#contact">Contact</a>
                 </div>
@@ -58,7 +62,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                 style="text-shadow: 2px 2px white"
             >
                 <h1 style="font-size: 100px">Modino</h1>
-                <h2 style="font-size: 70px">Placeholder</h2>
+                <h2 style="font-size: 70px">Placeholder tekst</h2>
             </div>
 
             <img src="images/hero.jpg" alt="hero" class="w-100" />
@@ -72,42 +76,23 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                     <p class="fs-1">Over mij</p>
 
                     <p>Placeholder tekst. Kan vervangen worden met 'over mij' sectie.</p>
-                </div>
-            </div>
-            
-            <!-- CATEGORIES -->
-            <div class="row mt-5 d-flex justify-content-center" id="categories">
-                <div class="col-lg-8 border rounded p-3 text-center">
-                    <p class="fs-1">Categorieën</p>
 
-                    <?php
-                    foreach ($projectData as $category) {
-                        echo '<a href="#' . $category['category'] . '" class="btn btn-light fs-4 m-3 mt-0">' . $category['category'] . '</a>';
-                    }
-                    ?>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.</p>
                 </div>
             </div>
 
             <!-- PROJECTS -->
-            <div class="row mt-5 d-flex justify-content-center">
-                <div class="col-lg-8 border p-3 rounded text-center">
-                    <p class="fs-1">Projecten</p>
+            <?php
+            foreach ($projectData as $category) {
+                echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center" id=' . $category['category'] . '><p class="fs-1">' . $category['category'] . '</p><div class="d-flex flex-wrap justify-content-between">';
 
-                    <p>Placeholder tekst. Kan vervangen worden met een korte beschrijving.</p>
+                foreach ($category['projects'] as $project) {
+                    echo '<a href="detail.php" class="col-lg-6 p-3 mb-5 rounded" style="width: 49%"><p class="fs-3">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . $project['name'] . '" class="w-50 img-fluid rounded" /></a>';
+                }
 
-                    <?php
-                    foreach ($projectData as $category) {
-                        echo '<p class="fs-2 border-bottom">' . $category['category'] . '</p><div class="d-flex flex-wrap justify-content-between" id="' . $category['category'] . '">';
-
-                        foreach ($category['projects'] as $project) {
-                            echo '<a href="detail.php" class="col-lg-6 p-3 mb-5 border rounded" style="width: 49%"><p class="fs-3 border-bottom">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . $project['name'] . '" class="w-100 img-fluid rounded" /></a>';
-                        }
-
-                        echo '</div>';
-                    }
-                    ?>
-                </div>
-            </div>
+                echo '</div></div></div>';
+            }
+            ?>
             
             <!-- CONTACT -->
             <div class="row mt-5 mb-5 d-flex justify-content-center" id="contact">
