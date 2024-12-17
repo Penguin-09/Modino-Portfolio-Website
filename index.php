@@ -57,15 +57,13 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 
         <!-- HERO -->
         <div class="d-flex justify-content-center align-items-center text-dark">
-            <div
-                class="text-center position-absolute"
-                style="text-shadow: 2px 2px white"
-            >
-                <h1 style="font-size: 100px">Modino</h1>
-                <h2 style="font-size: 70px">Placeholder tekst</h2>
+            <div class="position-absolute">
+                <h1 style="font-size: 50px"><strong>Mo</strong>oie</h1>
+                <h1 style="font-size: 50px"><strong>Din</strong>gen</h1>
+                <h1 style="font-size: 50px"><strong>O</strong>ntwerpen</h1>
             </div>
 
-            <img src="images/hero.jpg" alt="hero" class="w-100" />
+            <img src="images/hero.jpg" alt="hero" class="w-100 img-fluid">
         </div>
 
         <!-- MAIN CONTENT -->
