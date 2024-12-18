@@ -17,6 +17,11 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
         <style>
             .btn-outline-light:hover {
                 text-shadow: none !important;
@@ -31,26 +36,41 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                 background-color:rgba(50, 55, 59, 0.94);
                 cursor: pointer;
             }
+            .cBackground {
+                background-color:rgb(40, 44, 48);
+            }
         </style>
     </head>
     <body class="bg-dark text-light">
         <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-lg text-light bg-dark border-bottom sticky-top p-0 m-0">
+        <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-0 m-0 cBackground">
             <div class="container-fluid d-flex justify-content-between">
                 <!-- Title -->
                 <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
                 <!-- Navigation -->
                 <div class="d-flex flex-row">
-                    <a class="btn btn-outline-light fs-6 me-3" href="#about">Over mij</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light fs-6 me-3" href="#about">Over mij</a>
+                            </li>
 
-                    <?php
-                    foreach ($projectData as $category) {
-                        echo '<a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6 me-3">' . $category['category'] . '</a>';
-                    }
-                    ?>
+                            <?php
+                            foreach ($projectData as $category) {
+                                echo '<li class="nav-item"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6 me-3">' . $category['category'] . '</a></li>';
+                            }
+                            ?>
 
-                    <a class="btn btn-outline-light fs-6" href="#contact">Contact</a>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light fs-6" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
             </div>
         </nav>
@@ -70,7 +90,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
         <div class="container">
             <!-- ABOUT -->
             <div class="row mt-5 d-flex justify-content-center" id="about">
-                <div class="col-lg-8 border rounded p-3 text-center">
+                <div class="col-lg-8 border rounded p-3 text-center cBackground">
                     <p class="fs-1">Over mij</p>
 
                     <p>Placeholder tekst. Kan vervangen worden met 'over mij' sectie.</p>
@@ -82,7 +102,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <!-- PROJECTS -->
             <?php
             foreach ($projectData as $category) {
-                echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center" id=' . $category['category'] . '><p class="fs-1">' . $category['category'] . '</p><div class="d-flex flex-wrap justify-content-between">';
+                echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center cBackground" id=' . $category['category'] . '><p class="fs-1">' . $category['category'] . '</p><div class="d-flex flex-wrap justify-content-between">';
 
                 foreach ($category['projects'] as $project) {
                     echo '<a href="detail.php?id=' . $project['id'] . '" class="col-lg-6 p-3 mb-5 rounded" style="width: 49%"><p class="fs-3">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . $project['name'] . '" class="w-50 img-fluid rounded" /></a>';
@@ -94,18 +114,30 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             
             <!-- CONTACT -->
             <div class="row mt-5 mb-5 d-flex justify-content-center" id="contact">
-                <div class="col-lg-8 border rounded p-3 text-center">
+                <div class="col-lg-8 border rounded pt-3 pb-3 text-center cBackground">
                     <p class="fs-1">Contact</p>
 
-                    <p>Placeholder tekst. Kan vervangen worden met een contact sectie.</p>
+                    <p>Placeholder tekst. Kan vervangen worden met tekst voor de contact sectie.</p>
+
+                    <div class="d-flex justify-content-around">
+                        <div class="p-3">
+                            <i class="bi bi-telephone-fill" style="font-size: 5rem"></i>
+                            <p class="fs-4">+31 6 453 10205</p>
+                        </div>
+
+                        <a href="mailto:bvdburg@modino.nl" class="p-3 rounded">
+                            <i class="bi bi-envelope-at-fill" style="font-size: 5rem"></i>
+                            <p class="fs-4">bvdburg@modino.nl</p>
+                        </a>
+                    </div>
                 </div>
             </div>
 
         </div>
 
         <!-- FOOTER -->
-        <div class="border-top p-5 text-center">
-            <p>Placeholder tekst. Kan vervangen worden met een footer sectie.</p>
+        <div class="border-top p-5 text-center cBackground">
+            <p class="m-0 p-0">© Copyright, Modino, All rights reserved, 2025</p>
         </div>
 
         <script
