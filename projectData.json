@@ -4,43 +4,22 @@
         "projects": [
             {
                 "name": "Kist",
+                "id": 0,
                 "headerLine": "Beautiful chest finished with veneer",
-                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
+                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
                 "mainPicture": "images/kist/hoofdfoto.jpg",
                 "pictures": [
                     "images/kist/foto1.jpg",
                     "images/kist/foto2.jpg",
-                    "images/kist/Voor de montage.jpg",
+                    "images/kist/VoorDeMontage.jpg",
                     "images/kist/Fineer.jpg"
                 ]
             },
             {
                 "name": "Planteltafel",
+                "id": 1,
                 "headerLine": "Twee plantentafeltjes",
-                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten.",
-                "mainPicture": "images/plantentafel/hoofdfoto.jpg",
-                "pictures": [
-                    "images/plantentafel/foto1.jpg",
-                    "images/plantentafel/foto2.jpg",
-                    "images/plantentafel/foto3.jpg"
-                ]
-            },
-            {
-                "name": "Kist",
-                "headerLine": "Beautiful chest finished with veneer",
-                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
-                "mainPicture": "images/kist/hoofdfoto.jpg",
-                "pictures": [
-                    "images/kist/foto1.jpg",
-                    "images/kist/foto2.jpg",
-                    "images/kist/Voor de montage.jpg",
-                    "images/kist/Fineer.jpg"
-                ]
-            },
-            {
-                "name": "Planteltafel",
-                "headerLine": "Twee plantentafeltjes",
-                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten.",
+                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
                 "mainPicture": "images/plantentafel/hoofdfoto.jpg",
                 "pictures": [
                     "images/plantentafel/foto1.jpg",
@@ -55,8 +34,9 @@
         "projects": [
             {
                 "name": "Antieke doosjes",
+                "id": 2,
                 "headerLine": "Reparatie van vier antieke doosjes",
-                "description": "heel verhaal.",
+                "description": "heel verhaal. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
                 "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
                 "pictures": [
                     "images/reparatieDoosje/Muziekdoosje.jpg",
