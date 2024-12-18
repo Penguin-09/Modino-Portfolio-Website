@@ -17,7 +17,6 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -43,22 +42,26 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
     </head>
     <body class="bg-dark text-light">
         <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-0 m-0 cBackground">
+        <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-2 m-0 cBackground">
             <div class="container-fluid d-flex justify-content-between">
                 <!-- Title -->
                 <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
+                <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
+                    </button>
+
                 <!-- Navigation -->
-                <div class="d-flex flex-row">
+                <div class="d-flex">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto d-flex flex-row flex-wrap">
                             <li class="nav-item">
                                 <a class="btn btn-outline-light fs-6 me-3" href="#about">Over mij</a>
                             </li>
 
                             <?php
                             foreach ($projectData as $category) {
-                                echo '<li class="nav-item"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6 me-3">' . $category['category'] . '</a></li>';
+                                echo '<li class="nav-item me-3 mb-1"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . $category['category'] . '</a></li>';
                             }
                             ?>
 
@@ -67,10 +70,6 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                             </li>
                         </ul>
                     </div>
-
-                    <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
             </div>
         </nav>
