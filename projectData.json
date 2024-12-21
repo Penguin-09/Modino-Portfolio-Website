@@ -5,8 +5,8 @@
             {
                 "name": "Kist",
                 "id": 0,
-                "headerLine": "Beautiful chest finished with veneer",
-                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
+                "headerLine": "Massief houten kist, afgewerkt met een fineer",
+                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
                 "mainPicture": "images/kist/hoofdfoto.jpg",
                 "pictures": [
                     "images/kist/foto1.jpg",
@@ -16,10 +16,10 @@
                 ]
             },
             {
-                "name": "Planteltafel",
+                "name": "Planteltafeltjes",
                 "id": 1,
                 "headerLine": "Twee plantentafeltjes",
-                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
+                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten.",
                 "mainPicture": "images/plantentafel/hoofdfoto.jpg",
                 "pictures": [
                     "images/plantentafel/foto1.jpg",
@@ -36,7 +36,24 @@
                 "name": "Antieke doosjes",
                 "id": 2,
                 "headerLine": "Reparatie van vier antieke doosjes",
-                "description": "heel verhaal. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.",
+                "description": "heel verhaal. ",
+                "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
+                "pictures": [
+                    "images/reparatieDoosje/Muziekdoosje.jpg",
+                    "images/reparatieDoosje/Poederkist.jpg",
+                    "images/reparatieDoosje/Kist3.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Camperinterieur",
+        "projects": [
+            {
+                "name": "Camperinterieur",
+                "id": 4,
+                "headerLine": "Verbetering en optimalisatie van Camperinterieur",
+                "description": "In een camper heb je altijd ruimtegebrek. Met diverse projecten worden alle hoeken en gaten van een camper benut. ",
                 "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
                 "pictures": [
                     "images/reparatieDoosje/Muziekdoosje.jpg",

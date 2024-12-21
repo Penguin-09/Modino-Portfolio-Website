@@ -56,7 +56,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto d-flex flex-row flex-wrap">
                             <li class="nav-item">
-                                <a class="btn btn-outline-light fs-6 me-3" href="#about">Over mij</a>
+                                <a class="btn btn-outline-light fs-6 me-3" href="#about">Home</a>
                             </li>
 
                             <?php
@@ -77,9 +77,11 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
         <!-- HERO -->
         <div class="d-flex justify-content-center align-items-center text-dark">
             <div class="position-absolute">
+				<!--
                 <h1 style="font-size: 50px"><strong>Mo</strong>oie</h1>
                 <h1 style="font-size: 50px"><strong>Din</strong>gen</h1>
                 <h1 style="font-size: 50px"><strong>O</strong>ntwerpen</h1>
+				-->
             </div>
 
             <img src="images/hero.jpg" alt="hero" class="w-100 img-fluid">
@@ -90,11 +92,9 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <!-- ABOUT -->
             <div class="row mt-5 d-flex justify-content-center" id="about">
                 <div class="col-lg-8 border rounded p-3 text-center cBackground">
-                    <p class="fs-1">Over mij</p>
-
-                    <p>Placeholder tekst. Kan vervangen worden met 'over mij' sectie.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio diam, aliquet nec posuere sit amet, tincidunt gravida mauris. In molestie mauris sem, et blandit lectus lacinia ac. Etiam tellus felis, porta non ultricies ac, finibus commodo odio. Integer suscipit venenatis enim, nec gravida orci pellentesque sed. Fusce nec ornare justo. Sed mattis dui vel eleifend suscipit. Aliquam erat volutpat.</p>
+                    <p class="fs-1">Modino</p>
+                    <p style="text-align: left;">Modino staat voor MOoie DINgen Ontwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camper interieur of kunstobjecten. Ook voer ik reparaties van houten objecten.</p>
+					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Hierbij wordt zoveel mogelijk van tweedehands of hergebruikt hout gebruik gemaakt. </p>
                 </div>
             </div>
 
@@ -115,8 +115,8 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 mb-5 d-flex justify-content-center" id="contact">
                 <div class="col-lg-8 border rounded pt-3 pb-3 text-center cBackground">
                     <p class="fs-1">Contact</p>
-
-                    <p>Placeholder tekst. Kan vervangen worden met tekst voor de contact sectie.</p>
+						<img src="images/contact.png" alt="contact" class="w-20 img-fluid">
+                    <!-- <p>Placeholder tekst. Kan vervangen worden met tekst voor de contact sectie.</p> 
 
                     <div class="d-flex justify-content-around">
                         <div class="p-3">
@@ -128,7 +128,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                             <i class="bi bi-envelope-at-fill" style="font-size: 5rem"></i>
                             <p class="fs-4">bvdburg@modino.nl</p>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
