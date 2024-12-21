@@ -93,7 +93,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 d-flex justify-content-center" id="about">
                 <div class="col-lg-8 border rounded p-3 text-center cBackground">
                     <p class="fs-1">Modino</p>
-                    <p style="text-align: left;">Modino staat voor MOoie DINgen Ontwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camper interieur of kunstobjecten. Ook voer ik reparaties van houten objecten.</p>
+                    <p style="text-align: left;">Modino staat voor MOoie DINgen Ontwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
 					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Hierbij wordt zoveel mogelijk van tweedehands of hergebruikt hout gebruik gemaakt. </p>
                 </div>
             </div>
