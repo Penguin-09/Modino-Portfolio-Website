@@ -21,7 +21,11 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <style>
+            body {
+                
+            }
             .btn-outline-light:hover {
                 text-shadow: none !important;
             }
@@ -48,15 +52,15 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                 <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
                 <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
-                    </button>
+                    <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
+                </button>
 
                 <!-- Navigation -->
                 <div class="d-flex">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto d-flex flex-row flex-wrap">
                             <li class="nav-item">
-                                <a class="btn btn-outline-light fs-6 me-3" href="#about">Home</a>
+                                <a class="btn btn-outline-light fs-6 me-3" href="index.php">Home</a>
                             </li>
 
                             <?php
@@ -85,7 +89,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 d-flex justify-content-center" id="about">
                 <div class="col-lg-8 border rounded p-3 text-center cBackground">
                     <p class="fs-1">Modino</p>
-                    <p style="text-align: left;">Modino staat voor MOoie DINgen Ontwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
+                    <p style="text-align: left;">Modino staat voor <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
 					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Hierbij wordt zoveel mogelijk van tweedehands of hergebruikt hout gebruik gemaakt. </p>
                 </div>
             </div>
@@ -107,7 +111,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 mb-5 d-flex justify-content-center" id="contact">
                 <div class="col-lg-8 border rounded pt-3 pb-3 text-center cBackground">
                     <p class="fs-1">Contact</p>
-						<img src="images/contact.png" alt="contact" class="w-20 img-fluid">
+					<img src="images/contact.png" alt="contact" class="w-20 img-fluid rounded">
                 </div>
             </div>
 

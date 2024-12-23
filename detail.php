@@ -27,9 +27,23 @@ foreach ($allProjectData as $category) {
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
     />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
     <style>
+        body {
+            
+        }
         .cBackground {
             background-color:rgb(40, 44, 48);
+        }
+        .img-hover-zoom {
+            transition: transform 0.3s ease;
+        }
+        .img-hover-zoom:hover {
+            transform: scale(2);
         }
     </style>
 </head>
@@ -41,15 +55,15 @@ foreach ($allProjectData as $category) {
                 <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
                 <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
-                    </button>
+                    <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
+                </button>
 
                 <!-- Navigation -->
                 <div class="d-flex">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto d-flex flex-row flex-wrap">
                             <li class="nav-item">
-                                <a class="btn btn-outline-light fs-6 me-3" href="index.php#about">Home</a>
+                                <a class="btn btn-outline-light fs-6 me-3" href="index.php">Home</a>
                             </li>
 
                             <?php
@@ -87,10 +101,10 @@ foreach ($allProjectData as $category) {
         <div class="row mt-5 d-flex justify-content-center">
             <div class="col-lg-8 border rounded d-flex justify-content-center flex-wrap cBackground">
             <!-- MAIN IMAGE -->
-            <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $projectData['mainPicture'] ?> alt="Main Picture" class="img-fluid rounded m-3"></div>
+            <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $projectData['mainPicture'] ?> alt="Main Picture" class="img-fluid rounded m-3 img-hover-zoom"></div>
 
             <?php foreach ($projectData['pictures'] as $picture) { ?>
-                <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="Picture" class="img-fluid rounded m-3"></div>
+                <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="Picture" class="img-fluid rounded m-3 img-hover-zoom"></div>
             <?php } ?>
             </div>
         </div>
