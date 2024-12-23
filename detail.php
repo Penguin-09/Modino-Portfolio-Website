@@ -35,41 +35,62 @@ foreach ($allProjectData as $category) {
 </head>
 <body class="bg-dark text-light">
     <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-expand-lg text-light bg-dark border-bottom sticky-top p-0 m-0">
-        <div class="container-fluid d-flex justify-content-between cBackground">
-            <!-- Title -->
-            <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
+    <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-2 m-0 cBackground">
+            <div class="container-fluid d-flex justify-content-between">
+                <!-- Title -->
+                <p class="navbar-brand text-light p-0 m-0"><span class="fs-1 pe-2">Modino</span> Bart van der Burg</p>
 
-            <!-- Navigation -->
-            <div class="d-flex flex-row">
-                <a class="btn btn-outline-light fs-6" href="index.php">Home</a>
+                <button class="navbar-toggler text-light border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="bi bi-list" style="font-size: larger"></i></span>
+                    </button>
+
+                <!-- Navigation -->
+                <div class="d-flex">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto d-flex flex-row flex-wrap">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light fs-6 me-3" href="index.php#about">Home</a>
+                            </li>
+
+                            <?php
+                            foreach ($allProjectData as $category) {
+                                echo '<li class="nav-item me-3 mb-1"><a href="index.php#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . $category['category'] . '</a></li>';
+                            }
+                            ?>
+
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light fs-6" href="index.php#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <!-- MAIN CONTENT -->
     <div class="container">
         <!-- TITLE -->
         <div class="row text-center">
             <h1 class="mt-5" style="font-size: 70px"><?= $projectData['name'] ?></h1>
-            <h2><?= $projectData['headerLine'] ?></h2>
         </div>
 
         <div class="row d-flex justify-content-center">
             <!-- DESCRIPTION -->
-            <div class="col-lg-8 m-3 p-3 border rounded d-flex justify-content-between flex-row cBackground">
-                <p class="col-lg-6"><?= $projectData['description'] ?></p> 
+            <div class="col-lg-8 m-3 p-3 border rounded text-center cBackground">
+                <h2><?= $projectData['headerLine'] ?></h2>
 
-                <!-- MAIN IMAGE -->
-                <img src=<?= $projectData['mainPicture'] ?> alt="Main Picture" class="col-lg-6 img-fluid rounded">
+                <p class="col-lg-6 d-flex text-start"><?= $projectData['description'] ?></p> 
             </div>
         </div>
 
         <!-- IMAGES -->
         <div class="row mt-5 d-flex justify-content-center">
             <div class="col-lg-8 border rounded d-flex justify-content-center flex-wrap cBackground">
+            <!-- MAIN IMAGE -->
+            <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $projectData['mainPicture'] ?> alt="Main Picture" class="img-fluid rounded m-3"></div>
+
             <?php foreach ($projectData['pictures'] as $picture) { ?>
-                <div class="col-lg-5 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="Picture" class="img-fluid rounded m-3"></div>
+                <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="Picture" class="img-fluid rounded m-3"></div>
             <?php } ?>
             </div>
         </div>

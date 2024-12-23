@@ -76,14 +76,6 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 
         <!-- HERO -->
         <div class="d-flex justify-content-center align-items-center text-dark">
-            <div class="position-absolute">
-				<!--
-                <h1 style="font-size: 50px"><strong>Mo</strong>oie</h1>
-                <h1 style="font-size: 50px"><strong>Din</strong>gen</h1>
-                <h1 style="font-size: 50px"><strong>O</strong>ntwerpen</h1>
-				-->
-            </div>
-
             <img src="images/hero.jpg" alt="hero" class="w-100 img-fluid">
         </div>
 
@@ -116,19 +108,6 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                 <div class="col-lg-8 border rounded pt-3 pb-3 text-center cBackground">
                     <p class="fs-1">Contact</p>
 						<img src="images/contact.png" alt="contact" class="w-20 img-fluid">
-                    <!-- <p>Placeholder tekst. Kan vervangen worden met tekst voor de contact sectie.</p> 
-
-                    <div class="d-flex justify-content-around">
-                        <div class="p-3">
-                            <i class="bi bi-telephone-fill" style="font-size: 5rem"></i>
-                            <p class="fs-4">+31 6 453 10205</p>
-                        </div>
-
-                        <a href="mailto:bvdburg@modino.nl" class="p-3 rounded">
-                            <i class="bi bi-envelope-at-fill" style="font-size: 5rem"></i>
-                            <p class="fs-4">bvdburg@modino.nl</p>
-                        </a>
-                    </div> -->
                 </div>
             </div>
 
