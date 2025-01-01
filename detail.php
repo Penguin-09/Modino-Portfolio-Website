@@ -33,9 +33,6 @@ foreach ($allProjectData as $category) {
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         />
     <style>
-        body {
-            
-        }
         .cBackground {
             background-color:rgb(40, 44, 48);
         }
