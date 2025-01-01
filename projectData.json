@@ -4,7 +4,7 @@
         "projects": [
             {
                 "name": "Kist",
-                "id": 0,
+                "id": "meubel_kist",
                 "headerLine": "Massief houten kist, afgewerkt met een fineer",
                 "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
                 "mainPicture": "images/kist/hoofdfoto.jpg",
@@ -17,7 +17,7 @@
             },
             {
                 "name": "Planteltafeltjes",
-                "id": 1,
+                "id": "plantentafel",
                 "headerLine": "Twee plantentafeltjes",
                 "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten.",
                 "mainPicture": "images/plantentafel/hoofdfoto.jpg",
@@ -26,7 +26,19 @@
                     "images/plantentafel/foto2.jpg",
                     "images/plantentafel/foto3.jpg"
                 ]
-            }
+            },
+            {
+                "name": "Lampen",
+                "id": "Lampen_van_hout",
+                "headerLine": "Lampen",
+                "description": "Hout combineert heel mooi met licht. ",
+                "mainPicture": "images/plantentafel/hoofdfoto.jpg",
+                "pictures": [
+                    "images/plantentafel/foto1.jpg",
+                    "images/plantentafel/foto2.jpg",
+                    "images/plantentafel/foto3.jpg"
+                ]
+            },			
         ]
     },
     {
@@ -34,7 +46,7 @@
         "projects": [
             {
                 "name": "Antieke doosjes",
-                "id": 2,
+                "id": "reparatie_antieke_doosjes",
                 "headerLine": "Reparatie van vier antieke doosjes",
                 "description": "heel verhaal. ",
                 "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
@@ -43,6 +55,48 @@
                     "images/reparatieDoosje/Poederkist.jpg",
                     "images/reparatieDoosje/Kist3.jpg"
                 ]
+            },
+			{
+                "name": "Oude vintage stoel",
+                "id": "reparatie_houten_stoel",
+                "headerLine": "Reparatie van de gebroken poten van een vintage stoel",
+                "description": "Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was doorgescheurd. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
+                "mainPicture": "images/reparatieStoel/hoofdfoto.jpg",
+				"pictures": [
+                    "images/reparatieStoel/foto1.jpg",
+                    "images/reparatieStoel/foto2.jpg",
+                    "images/reparatieStoel/foto3.jpg",
+					"images/reparatieStoel/foto4.jpg",
+					"images/reparatieStoel/foto5.jpg",
+					"images/reparatieStoel/foto6.jpg",
+					"images/reparatieStoel/foto7.jpg",
+					"images/reparatieStoel/foto8.jpg",
+					"images/reparatieStoel/foto9.jpg",
+					"images/reparatieStoel/foto10.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Houtkunst",
+        "projects": [
+            {
+                "name": "Houtmozaïek",
+                "id": "kunst_hout_mozaiek",
+                "headerLine": "Houten mozaïek van 2x1 meter",
+                "description": "Houten wandmozaïek van 2 bij 1 meter, gemaakt van houtresten en afvalhout.",
+                "mainPicture": "images/Houtmozaiek/hoofdfoto.jpg",
+				"pictures": [
+                    "images/Houtmozaiek/mozaiek1.jpg",
+                    "images/Houtmozaiek/mozaiek2.jpg",
+                    "images/Houtmozaiek/mozaiek3.jpg",
+					"images/Houtmozaiek/mozaiek4.jpg",
+					"images/Houtmozaiek/mozaiek6.jpg",
+					"images/Houtmozaiek/mozaiek7.jpg",
+					"images/Houtmozaiek/mozaiek8.jpg",
+					"images/Houtmozaiek/mozaiek9.jpg"
+                ]
+
             }
         ]
     },
@@ -51,7 +105,7 @@
         "projects": [
             {
                 "name": "Camperinterieur",
-                "id": 4,
+                "id": "camper_interieur",
                 "headerLine": "Verbetering en optimalisatie van Camperinterieur",
                 "description": "In een camper heb je altijd ruimtegebrek. Met diverse projecten worden alle hoeken en gaten van een camper benut. ",
                 "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",

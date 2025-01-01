@@ -91,6 +91,8 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                     <p class="fs-1">Modino</p>
                     <p style="text-align: left;">Modino staat voor <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
 					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Hierbij wordt zoveel mogelijk van tweedehands of hergebruikt hout gebruik gemaakt. </p>
+					<p style="text-align: left;">Heeft u een ontwerp in gedachten? Met bijvoorbeeld hele specifieke afmetingen of details? </p>
+
                 </div>
             </div>
 
