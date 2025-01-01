@@ -7,36 +7,37 @@
                 "id": "meubel_kist",
                 "headerLine": "Massief houten kist, afgewerkt met een fineer",
                 "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
-                "mainPicture": "images/kist/hoofdfoto.jpg",
+                "mainPicture": "images/meubel_Kist/hoofdfoto.jpg",
                 "pictures": [
-                    "images/kist/foto1.jpg",
-                    "images/kist/foto2.jpg",
-                    "images/kist/VoorDeMontage.jpg",
-                    "images/kist/Fineer.jpg"
+                    "images/meubel_Kist/foto1.jpg",
+                    "images/meubel_Kist/foto2.jpg",
+                    "images/meubel_Kist/VoorDeMontage.jpg",
+                    "images/meubel_Kist/Fineer.jpg"
                 ]
             },
             {
                 "name": "Planteltafeltjes",
                 "id": "plantentafel",
                 "headerLine": "Twee plantentafeltjes",
-                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. Studieobjecten.",
-                "mainPicture": "images/plantentafel/hoofdfoto.jpg",
+                "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. De poten zijn gemaakt van Esdoorn, een zeer blanke houtsoort. <br><br> Voor het fineer is een combinatie gebruikt van Esdoorn en Mahonie, om zo twee contrasterende kleuren te verkrijgen. Door de afwerking met een olie springt het Mahonie eruit en krijgt het een diepe kleur. <br><br> Studieobjecten.",
+                "mainPicture": "images/meubel_Plantentafel/plantentafel_hoofdfoto.jpg",
                 "pictures": [
-                    "images/plantentafel/foto1.jpg",
-                    "images/plantentafel/foto2.jpg",
-                    "images/plantentafel/foto3.jpg"
+                    "images/meubel_Plantentafel/plantentafel1.jpg",
+                    "images/meubel_Plantentafel/plantentafel2.jpg",
+                    "images/meubel_Plantentafel/plantentafel3.jpg",
+					"images/meubel_Plantentafel/plantentafel4.jpg"
                 ]
             },
             {
                 "name": "Lampen",
                 "id": "Lampen_van_hout",
-                "headerLine": "Lampen",
-                "description": "Hout combineert heel mooi met licht. ",
-                "mainPicture": "images/plantentafel/hoofdfoto.jpg",
+                "headerLine": "Lampen van hout",
+                "description": "Hout combineert heel mooi met licht. Hieronder zie je uiteenlopende toepassingen van leds verwerkt met hout. <br><br> Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br><br> Een sierlamp op een boomstam met een ruige uitstraling.  <br><br> Ledstrip, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br><br>   ",
+                "mainPicture": "images/meubel_Lampen/nachtkast_planken.jpg",
                 "pictures": [
-                    "images/plantentafel/foto1.jpg",
-                    "images/plantentafel/foto2.jpg",
-                    "images/plantentafel/foto3.jpg"
+					"images/meubel_Lampen/boomstam_lamp.jpg",
+                    "images/meubel_Lampen/houten_balk_lamp.jpg",
+                    "images/meubel_Lampen/ledstrip_lamp.jpg"
                 ]
             }
         ]
@@ -59,8 +60,8 @@
             {
                 "name": "Oude vintage stoel",
                 "id": "reparatie_houten_stoel",
-                "headerLine": "Reparatie van de gebroken poten van een vintage stoel",
-                "description": "Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was doorgescheurd. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
+                "headerLine": "Reparatie van een vintage stoel",
+                "description": "Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was volledig doorgescheurd. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
                 "mainPicture": "images/reparatieStoel/hoofdfoto.jpg",
                 "pictures": [
                     "images/reparatieStoel/foto1.jpg",
@@ -73,6 +74,16 @@
                     "images/reparatieStoel/foto8.jpg",
                     "images/reparatieStoel/foto9.jpg",
                     "images/reparatieStoel/foto10.jpg"
+                ]
+            },
+            {
+                "name": "Houten tafel",
+                "id": "reparatie_houten_tafel",
+                "headerLine": "Reparatie van een houten tafel",
+                "description": "<br> Een mooie houten koffietafel, die duidelijk handmatig gemaakt is door een meubelmaker, had een kleine versplinterde hoek. Dat was al voldoende om hem bij het grofvuil te dumpen. <br><br> Gelukkig kon ik hem nog uit het grofvuil redden en de makkelijke reparatie uitvoeren. Hiervoor heb ik de versplintering vervangen door stuk hout en met deuvels (voor extra versteviging) verlijmd. Na jaren van dienst is de tafel verkocht. ",
+                "mainPicture": "images/reparatieHoutenTafel/reparatie_houten_tafel.jpg",
+                "pictures": [
+                    "images/reparatieHoutenTafel/reparatie_detail.jpg"
                 ]
             }
         ]

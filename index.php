@@ -86,10 +86,11 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 d-flex justify-content-center" id="about">
                 <div class="col-lg-8 border rounded p-3 text-center cBackground">
                     <p class="fs-1">Modino</p>
-                    <p style="text-align: left;">Modino staat voor <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen. Dingen van hout, bij voorkeur van tweedehands of hergebruikt hout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
-					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Hierbij wordt zoveel mogelijk van tweedehands of hergebruikt hout gebruik gemaakt. </p>
-					<p style="text-align: left;">Heeft u een ontwerp in gedachten? Met bijvoorbeeld hele specifieke afmetingen of details? </p>
-                </div>
+                    <p style="text-align: left;">Modino staat voor <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen. Dingen van hout, bij voorkeur van tweedehands, hergebruikt of resthout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
+					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Wilt u zelf zelf <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen en maken? Ik help u graag en draag mijn kennis over houtbewerking over.  </p>
+					<p style="text-align: left;">Heeft u een meubel of een ontwerp in gedachten? Met bijvoorbeeld hele specifieke afmetingen of details? Of op een speciale locatie? Wilt u de beperkte ruimte in uw camper beter benutten? Of heeft u een kapot houten meubelstuk? Of vindt u een van de onderstaande ontwerpen mooi? Of een variatie daarop? Of wilt u het zelf maken? </p>
+					<p style="text-align: left;">Neem <a href=#contact><strong>contact</strong></a> op voor een kop koffie. </p>
+				</div>
             </div>
 
             <!-- PROJECTS -->
