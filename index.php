@@ -94,7 +94,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                     <p class="fs-1">Modino</p>
                     <p style="text-align: left;">Modino staat voor <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen. Dingen van hout, bij voorkeur van tweedehands, hergebruikt of resthout. Hiervan maakt ik maatwerk meubels, camperinterieur of kunstobjecten. Ook voer ik reparaties van houten objecten uit.</p>
 					<p style="text-align: left;">Modino denkt met u mee met het ontwerp, maakt de schetsen en tekeningen en maakt het object. Wilt u zelf zelf <strong>MO</strong>oie <strong>DIN</strong>gen <strong>O</strong>ntwerpen en maken? Ik help u graag en draag mijn kennis over houtbewerking over.  </p>
-					<p style="text-align: left;">Heeft u een meubel of een ontwerp in gedachten? Met bijvoorbeeld hele specifieke afmetingen of details? Of op een speciale locatie? Wilt u de beperkte ruimte in uw camper beter benutten? Of heeft u een kapot houten meubelstuk? Of vindt u een van de onderstaande ontwerpen mooi? Of een variatie daarop? Of wilt u het zelf maken? </p>
+					<p style="text-align: left;">Bent u geïnteresseerd of geïnspireerd door een van mijn ontwerpen? Of heeft u een meubel of een ontwerp in gedachten? Met bijvoorbeeld hele specifieke afmetingen of details? Wilt u de beperkte ruimte in uw camper beter benutten? Of heeft u een kapot houten meubelstuk? </p>
 					<p style="text-align: left;">Neem <a href=#contact><strong>contact</strong></a> op voor een kop koffie. </p>
 				</div>
             </div>
