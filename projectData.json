@@ -3,16 +3,16 @@
         "category": "Meubels",
         "projects": [
             {
-                "name": "Kist",
-                "id": "meubel_kist",
+                "name": "Houten Kist",
+                "id": "meubel-kist",
                 "headerLine": "Massief houten kist, afgewerkt met een fineer",
-                "description": "heel verhaal. Artisenaal gemaakte kist met lade en een elegant fineer. Studieobject.",
-                "mainPicture": "images/meubel_Kist/hoofdfoto.jpg",
+                "description": "Massief houten kist met lade en een elegant fineer. De massief houten body is van Esdoorn en kersenhout. Het fineer is gemaakt van Esdoorn en Mahonie om zoveel mogelijk contrast te creëren. Afgewerkt met een olie. <br><br> Studieobject.",
+                "mainPicture": "images/meubel-Kist/houten-kist.jpg",
                 "pictures": [
-                    "images/meubel_Kist/foto1.jpg",
-                    "images/meubel_Kist/foto2.jpg",
-                    "images/meubel_Kist/VoorDeMontage.jpg",
-                    "images/meubel_Kist/Fineer.jpg"
+                    "images/meubel-Kist/houten-kist-1.jpg",
+                    "images/meubel-Kist/houten-kist-2.jpg",
+                    "images/meubel-Kist/houten-kist-3.jpg",
+                    "images/meubel-Kist/houten-kist-4.jpg"
                 ]
             },
             {
@@ -20,24 +20,42 @@
                 "id": "plantentafel",
                 "headerLine": "Twee plantentafeltjes",
                 "description": "Twee bij elkaar horende tafeltjes met beiden een uniek fineer. De poten zijn gemaakt van Esdoorn, een zeer blanke houtsoort. <br><br> Voor het fineer is een combinatie gebruikt van Esdoorn en Mahonie, om zo twee contrasterende kleuren te verkrijgen. Door de afwerking met een olie springt het Mahonie eruit en krijgt het een diepe kleur. <br><br> Studieobjecten.",
-                "mainPicture": "images/meubel_Plantentafel/plantentafel_hoofdfoto.jpg",
+                "mainPicture": "images/meubel-Planten-tafel/Planten-tafel.jpg",
                 "pictures": [
-                    "images/meubel_Plantentafel/plantentafel1.jpg",
-                    "images/meubel_Plantentafel/plantentafel2.jpg",
-                    "images/meubel_Plantentafel/plantentafel3.jpg",
-					"images/meubel_Plantentafel/plantentafel4.jpg"
+                    "images/meubel-Planten-tafel/Planten-tafel-1.jpg",
+                    "images/meubel-Planten-tafel/Planten-tafel-2.jpg",
+                    "images/meubel-Planten-tafel/Planten-tafel-3.jpg",
+					"images/meubel-Planten-tafel/Planten-tafel-4.jpg"
                 ]
             },
             {
                 "name": "Lampen",
-                "id": "Lampen_van_hout",
+                "id": "Lampen-van-hout",
                 "headerLine": "Lampen van hout",
-                "description": "Hout combineert heel mooi met licht. Hieronder zie je uiteenlopende toepassingen van leds verwerkt met hout. <br><br> Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br><br> Een sierlamp op een boomstam met een ruige uitstraling.  <br><br> Ledstrip, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br><br>   ",
-                "mainPicture": "images/meubel_Lampen/nachtkast_planken.jpg",
+                "description": "Hout combineert heel mooi met licht. Hieronder zie je verschillende toepassingen van leds verwerkt met hout. <br> ▪ Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br> ▪ Een sierlamp op een boomstam met een ruige uitstraling.  <br> ▪ Ledstrip lamp, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br> ▪ Wandlamp met ledstrip dat een zacht achtergrond licht geeft.  ",
+                "mainPicture": "images/meubel-Lampen-hout/nachtkast-planken.jpg",
                 "pictures": [
-					"images/meubel_Lampen/boomstam_lamp.jpg",
-                    "images/meubel_Lampen/houten_balk_lamp.jpg",
-                    "images/meubel_Lampen/ledstrip_lamp.jpg"
+					"images/meubel-Lampen-hout/boomstam-lamp.jpg",
+                    "images/meubel-Lampen-hout/houten-balk-lamp.jpg",
+                    "images/meubel-Lampen-hout/ledstrip-lamp.jpg",
+					"images/meubel-Lampen-hout/ledstrip-lamp-1.jpg",
+					"images/meubel-Lampen-hout/wand-lamp.jpg",
+					"images/meubel-Lampen-hout/wand-lamp-1.jpg"
+                ]
+            },
+            {
+                "name": "Zijtafel",
+                "id": "houten-tafel",
+                "headerLine": "Zijtafel van eiken- en kersenhout",
+                "description": "Zijtafel met lade, gemaakt van eiken- en kersenhout. Het eikenhout is met vanDycksbruin gebijtst om tot een groter contrast te komen met het kersenhout. De zijden van de lade zijn met handmatig gemaakte zwaluwstaarten met elkaar verbonden. Het geheel is afgewerkt met een olie. <br><br> Studieobject. ",
+                "mainPicture": "images/meubel-Zijtafel/houten-tafel.jpg",
+                "pictures": [
+					"images/meubel-Zijtafel/houten-tafel-1.jpg",
+                    "images/meubel-Zijtafel/houten-tafel-2.jpg",
+                    "images/meubel-Zijtafel/houten-tafel-3.jpg",
+                    "images/meubel-Zijtafel/eiken-hout.jpg",
+                    "images/meubel-Zijtafel/houten-tafel-4.jpg"
+					
                 ]
             }
         ]
@@ -47,43 +65,40 @@
         "projects": [
             {
                 "name": "Antieke doosjes",
-                "id": "reparatie_antieke_doosjes",
+                "id": "reparatie-antieke_doosjes",
                 "headerLine": "Reparatie van vier antieke doosjes",
                 "description": "heel verhaal. ",
-                "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
+                "mainPicture": "images/reparatie-houten-Doosjes/muziekdoosje.jpg",
                 "pictures": [
-                    "images/reparatieDoosje/Muziekdoosje.jpg",
-                    "images/reparatieDoosje/Poederkist.jpg",
-                    "images/reparatieDoosje/Kist3.jpg"
+                    "images/reparatie-houten-Doosjes/Muziekdoosje-1.jpg",
+                    "images/reparatie-houten-Doosjes/Poederkist.jpg",
+                    "images/reparatie-houten-Doosjes/houten-doosje.jpg"
                 ]
             },
             {
                 "name": "Oude vintage stoel",
-                "id": "reparatie_houten_stoel",
+                "id": "reparatie-houten-stoel",
                 "headerLine": "Reparatie van een vintage stoel",
                 "description": "Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was volledig doorgescheurd. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
-                "mainPicture": "images/reparatieStoel/hoofdfoto.jpg",
+                "mainPicture": "images/reparatie-Stoel/reparatie-vintage-Stoel.jpg",
                 "pictures": [
-                    "images/reparatieStoel/foto1.jpg",
-                    "images/reparatieStoel/foto2.jpg",
-                    "images/reparatieStoel/foto3.jpg",
-                    "images/reparatieStoel/foto4.jpg",
-                    "images/reparatieStoel/foto5.jpg",
-                    "images/reparatieStoel/foto6.jpg",
-                    "images/reparatieStoel/foto7.jpg",
-                    "images/reparatieStoel/foto8.jpg",
-                    "images/reparatieStoel/foto9.jpg",
-                    "images/reparatieStoel/foto10.jpg"
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-1.jpg",
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-2.jpg",
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-3.jpg",
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-4.jpg",
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-5.jpg",
+                    "images/reparatie-Stoel/reparatie-vintage-Stoel-6.jpg"
                 ]
             },
             {
                 "name": "Houten tafel",
-                "id": "reparatie_houten_tafel",
+                "id": "reparatie-houten-tafel",
                 "headerLine": "Reparatie van een houten tafel",
-                "description": "<br> Een mooie houten koffietafel, die duidelijk handmatig gemaakt is door een meubelmaker, had een kleine versplinterde hoek. Dat was al voldoende om hem bij het grofvuil te dumpen. <br><br> Gelukkig kon ik hem nog uit het grofvuil redden en de makkelijke reparatie uitvoeren. Hiervoor heb ik de versplintering vervangen door stuk hout en met deuvels (voor extra versteviging) verlijmd. Na jaren van dienst is de tafel verkocht. ",
-                "mainPicture": "images/reparatieHoutenTafel/reparatie_houten_tafel.jpg",
+                "description": "Een mooie houten koffietafel, die duidelijk handmatig gemaakt is door een meubelmaker, had een kleine versplinterde hoek. Dat was al voldoende om hem bij het grofvuil te dumpen. <br><br> Gelukkig kon ik hem nog uit het grofvuil redden en de makkelijke reparatie uitvoeren. Hiervoor heb ik de versplintering vervangen door stuk hout en met deuvels (voor extra versteviging) verlijmd. Na jaren van trouwe dienst is de tafel verkocht. ",
+                "mainPicture": "images/reparatie-Houten-Tafel/reparatie-Houten-Tafel.jpg",
                 "pictures": [
-                    "images/reparatieHoutenTafel/reparatie_detail.jpg"
+                    "images/reparatie-Houten-Tafel/reparatie-Houten-Tafel-1.jpg",
+					"images/reparatie-Houten-Tafel/reparatie-Houten-Tafel-2.jpg"
                 ]
             }
         ]
@@ -95,17 +110,34 @@
                 "name": "Houtmozaïek",
                 "id": "kunst_hout_mozaiek",
                 "headerLine": "Houten mozaïek van 2x1 meter",
-                "description": "Houten wandmozaïek van 2 bij 1 meter, gemaakt van houtresten en afvalhout.",
-                "mainPicture": "images/Houtmozaiek/hoofdfoto.jpg",
+                "description": "Houten wandmozaïek van 2 bij 1 meter, gemaakt van houtresten en afvalhout. Gemakkelijk om te maken en kan bijna niet mislukken. Ideaal project om je kleine restjes hout te verwerken. Om extra de aandacht te vestigen op dit kunststuk kan er ook een lamp of ledstrip in verwerkt worden. ",
+                "mainPicture": "images/kunst-Hout-mozaiek/Hout-mozaiek.jpg",
                 "pictures": [
-                    "images/Houtmozaiek/mozaiek1.jpg",
-                    "images/Houtmozaiek/mozaiek2.jpg",
-                    "images/Houtmozaiek/mozaiek3.jpg",
-                    "images/Houtmozaiek/mozaiek4.jpg",
-                    "images/Houtmozaiek/mozaiek6.jpg",
-                    "images/Houtmozaiek/mozaiek7.jpg",
-                    "images/Houtmozaiek/mozaiek8.jpg",
-                    "images/Houtmozaiek/mozaiek9.jpg"
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-1.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-2.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-3.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-4.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-5.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-6.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-7.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-8.jpg"
+                ]
+            },
+            {
+                "name": "Houtmozaïek",
+                "id": "kunst_hout_mozaiek",
+                "headerLine": "Houten mozaïek van 2x1 meter",
+                "description": "Houten wandmozaïek van 2 bij 1 meter, gemaakt van houtresten en afvalhout. Gemakkelijk om te maken en kan bijna niet mislukken. Ideaal project om je kleine restjes hout te verwerken. Om extra de aandacht te vestigen op dit kunststuk kan er ook een lamp of ledstrip in verwerkt worden. ",
+                "mainPicture": "images/kunst-rare-vogel/rare-vogel.jpg",
+                "pictures": [
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-1.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-2.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-3.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-4.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-5.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-6.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-7.jpg",
+                    "images/kunst-Hout-mozaiek/Hout-mozaiek-8.jpg"
                 ]
             }
         ]
@@ -118,11 +150,11 @@
                 "id": "camper_interieur",
                 "headerLine": "Verbetering en optimalisatie van Camperinterieur",
                 "description": "In een camper heb je altijd ruimtegebrek. Met diverse projecten worden alle hoeken en gaten van een camper benut. ",
-                "mainPicture": "images/reparatieDoosje/hoofdfoto.jpg",
+                "mainPicture": "images/reparatie-houten-Doosjes/hoofdfoto.jpg",
                 "pictures": [
-                    "images/reparatieDoosje/Muziekdoosje.jpg",
-                    "images/reparatieDoosje/Poederkist.jpg",
-                    "images/reparatieDoosje/Kist3.jpg"
+                    "images/reparatie-houten-Doosjes/Muziekdoosje.jpg",
+                    "images/reparatie-houten-Doosjes/Poederkist.jpg",
+                    "images/reparatie-houten-Doosjes/Kist3.jpg"
                 ]
             }
         ]

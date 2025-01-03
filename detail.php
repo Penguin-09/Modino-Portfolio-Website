@@ -90,7 +90,7 @@ foreach ($allProjectData as $category) {
             <div class="col-lg-8 m-3 p-3 border rounded text-center cBackground">
                 <h2><?= $projectData['headerLine'] ?></h2>
 
-                <p class="col-lg-6 d-flex text-start"><?= $projectData['description'] ?></p> 
+                <p class="col d-flex text-start"><?= $projectData['description'] ?></p> 
             </div>
         </div>
 
