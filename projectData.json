@@ -6,7 +6,7 @@
                 "name": "Houten Kist",
                 "id": "meubel-kist",
                 "headerLine": "Massief houten kist, afgewerkt met een fineer",
-                "description": "<br>Massief houten kist met lade en een elegant fineer. De massief houten body is van Esdoorn en kersenhout. Het fineer is gemaakt van Esdoorn en Mahonie om zoveel mogelijk contrast te creëren. Afgewerkt met een olie. <br><br> Studieobject.",
+                "description": "<br>Massief houten kist met lade en een elegant fineer. De massief houten body is van Esdoorn en kersenhout. Het fineer is gemaakt van Esdoorn en Mahonie om zoveel mogelijk contrast te creëren. Afgewerkt met een olie.",
                 "mainPicture": "images/meubel-Kist/houten-kist.jpg",
                 "pictures": [
                     "images/meubel-Kist/houten-kist-1.jpg",
@@ -19,7 +19,7 @@
                 "name": "Planteltafeltjes",
                 "id": "plantentafel",
                 "headerLine": "Twee plantentafeltjes",
-                "description": "<br>Twee bij elkaar horende tafeltjes met beiden een uniek fineer. De poten zijn gemaakt van Esdoorn, een zeer blanke houtsoort. <br><br> Voor het fineer is een combinatie gebruikt van Esdoorn en Mahonie, om zo twee contrasterende kleuren te verkrijgen. Door de afwerking met een olie springt het Mahonie eruit en krijgt het een diepe kleur. <br><br> Studieobjecten.",
+                "description": "<br>Twee bij elkaar horende tafeltjes met beiden een uniek fineer. De poten zijn gemaakt van Esdoorn, een zeer blanke houtsoort. <br><br> Voor het fineer is een combinatie gebruikt van Esdoorn en Mahonie, om zo twee contrasterende kleuren te verkrijgen. Door de afwerking met een olie springt het Mahonie eruit en krijgt het een diepe kleur.",
                 "mainPicture": "images/meubel-Planten-tafel/Planten-tafel.jpg",
                 "pictures": [
                     "images/meubel-Planten-tafel/Planten-tafel-1.jpg",
@@ -33,11 +33,11 @@
                 "id": "Lampen-van-hout",
                 "headerLine": "Lampen van hout",
                 "description": "<br>Hout combineert heel mooi met licht. Hieronder zie je verschillende toepassingen van leds verwerkt met hout. <br> ▪ Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br> ▪ Een sierlamp op een boomstam met een ruige uitstraling.  <br> ▪ Ledstrip lamp, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br> ▪ Wandlamp met ledstrip dat een zacht achtergrond licht geeft.  ",
-                "mainPicture": "images/meubel-Lampen-hout/nachtkast-planken.jpg",
+                "mainPicture": "images/meubel-Lampen-hout/Nachtkast-planken.jpg",
                 "pictures": [
 					"images/meubel-Lampen-hout/boomstam-lamp.jpg",
-                    "images/meubel-Lampen-hout/ledstrip-lamp.jpg",
-					"images/meubel-Lampen-hout/ledstrip-lamp-1.jpg",
+                    "images/meubel-Lampen-hout/Ledstrip-lamp.jpg",
+					"images/meubel-Lampen-hout/Ledstrip-lamp-1.jpg",
 					"images/meubel-Lampen-hout/wand-lamp.jpg",
 					"images/meubel-Lampen-hout/wand-lamp-1.jpg"
                 ]
@@ -46,14 +46,14 @@
                 "name": "Zijtafel",
                 "id": "houten-tafel",
                 "headerLine": "Zijtafel van eiken- en kersenhout",
-                "description": "<br>Zijtafel met lade, gemaakt van eiken- en kersenhout. Het eikenhout is met vanDycksbruin gebijtst om tot een groter contrast te komen met het kersenhout. De zijden van de lade zijn met handmatig gemaakte zwaluwstaarten met elkaar verbonden. Het geheel is afgewerkt met een olie. <br><br> Studieobject. ",
-                "mainPicture": "images/meubel-Zijtafel/houten-tafel.jpg",
+                "description": "<br>Zijtafel met lade, gemaakt van eiken- en kersenhout. Het eikenhout is met vanDycksbruin gebijtst om tot een groter contrast te komen met het kersenhout. De zijden van de lade zijn met handmatig gemaakte zwaluwstaarten met elkaar verbonden. Het geheel is afgewerkt met een olie. ",
+                "mainPicture": "images/meubel-Zijtafel/Houten-tafel.jpg",
                 "pictures": [
-					"images/meubel-Zijtafel/houten-tafel-1.jpg",
-                    "images/meubel-Zijtafel/houten-tafel-2.jpg",
-                    "images/meubel-Zijtafel/houten-tafel-3.jpg",
+					"images/meubel-Zijtafel/Houten-tafel-1.jpg",
+                    "images/meubel-Zijtafel/Houten-tafel-2.jpg",
+                    "images/meubel-Zijtafel/Houten-tafel-3.jpg",
                     "images/meubel-Zijtafel/eiken-hout.jpg",
-                    "images/meubel-Zijtafel/houten-tafel-4.jpg"
+                    "images/meubel-Zijtafel/Houten-tafel-4.jpg"
 					
                 ]
             },
@@ -108,10 +108,10 @@
                 "id": "reparatie-houten-tafel",
                 "headerLine": "Reparatie van een houten tafel",
                 "description": "<br>Een mooie houten koffietafel, die duidelijk handmatig gemaakt is door een meubelmaker, had een kleine versplinterde hoek. Dat was al voldoende om hem bij het grofvuil te dumpen. <br><br> Gelukkig kon ik hem nog uit het grofvuil redden en de makkelijke reparatie uitvoeren. Hiervoor heb ik de versplintering vervangen door een restje hardhout en met deuvels (voor extra versteviging) verlijmd. Na jaren van trouwe dienst is de tafel verkocht. ",
-                "mainPicture": "images/reparatie-Houten-Tafel/reparatie-Houten-Tafel.jpg",
+                "mainPicture": "images/reparatie-Houten-Tafel/reparatie-Houten-tafel.jpg",
                 "pictures": [
-                    "images/reparatie-Houten-Tafel/reparatie-Houten-Tafel-1.jpg",
-					"images/reparatie-Houten-Tafel/reparatie-Houten-Tafel-2.jpg"
+                    "images/reparatie-Houten-Tafel/reparatie-Houten-tafel-1.jpg",
+					"images/reparatie-Houten-Tafel/reparatie-Houten-tafel-2.jpg"
                 ]
             }
         ]
@@ -141,9 +141,9 @@
                 "id": "Hout-en-staal",
                 "headerLine": "Hout en staal",
                 "description": "<br>In deze stukken wordt zwart staal gecombineerd met hout, wat resulteert en een mooi contrast. In de buik van de stalen vogels kan een plantenpot worden geplaatst. De houten ondergrond is gemaakt van de resten van een gekapte spar en gesnoeide takken. ",
-                "mainPicture": "images/kunst-rare-vogels/rare-vogel.jpg",
+                "mainPicture": "images/kunst-Rare-Vogels/rare-vogel.jpg",
                 "pictures": [
-                    "images/kunst-rare-vogels/rare-vogel-1.jpg"
+                    "images/kunst-Rare-Vogels/rare-vogel-1.jpg"
                 ]
             }
         ]
