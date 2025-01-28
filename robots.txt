@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /
+Crawl-delay: 2
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Duckduckbot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: Applebot
+Disallow:
+
+User-agent: Swiftbot
+Disallow:
