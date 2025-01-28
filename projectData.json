@@ -91,8 +91,8 @@
             {
                 "name": "Oude vintage stoel",
                 "id": "reparatie-houten-stoel",
-                "headerLine": "Reparatie van een vintage stoel",
-                "description": "<br>Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was volledig doorgescheurd. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
+                "headerLine": "Stoel met afgebroken, gespleten poot en een losse stijl",
+                "description": "<br>Bij een vintage stoel waren de voorpoten afgebroken en één van de poten was volledig doorgescheurd en een stijl was geheel losgebroken. De scheur is gerepareerd met wit epoxy om maximale belasting te waarborgen. Na het weghalen van de houtresten, plaatsen van nieuwe deuvels en de epoxy reparatie is de stoel opnieuw in elkaar gelijmd. De stoel is weer volledig belastbaar. ",
                 "mainPicture": "images/reparatie-Stoel/reparatie-vintage-Stoel.jpg",
                 "pictures": [
                     "images/reparatie-Stoel/reparatie-vintage-Stoel-1.jpg",
@@ -106,12 +106,26 @@
             {
                 "name": "Houten tafel",
                 "id": "reparatie-houten-tafel",
-                "headerLine": "Reparatie van een houten tafel",
+                "headerLine": "Houten tafel met een versplinterde hoek",
                 "description": "<br>Een mooie houten koffietafel, die duidelijk handmatig gemaakt is door een meubelmaker, had een kleine versplinterde hoek. Dat was al voldoende om hem bij het grofvuil te dumpen. <br><br> Gelukkig kon ik hem nog uit het grofvuil redden en de makkelijke reparatie uitvoeren. Hiervoor heb ik de versplintering vervangen door een restje hardhout en met deuvels (voor extra versteviging) verlijmd. Na jaren van trouwe dienst is de tafel verkocht. ",
                 "mainPicture": "images/reparatie-Houten-Tafel/reparatie-Houten-tafel.jpg",
                 "pictures": [
                     "images/reparatie-Houten-Tafel/reparatie-Houten-tafel-1.jpg",
 					"images/reparatie-Houten-Tafel/reparatie-Houten-tafel-2.jpg"
+                ]
+            },
+            {
+                "name": "Massief houten krukje",
+                "id": "reparatie-massief-houten-krukje",
+                "headerLine": "Massief krukje met een gebroken poot",
+                "description": "<br>Een massief houten krukje, gemaakt uit één stuk hardhout, had een gebroken poot. Daarnaast waren een aantal andere reparaties niet goed afgewerkt, waardoor het massief houten krukje bij het grof vuil kwam te staan. Op een van onderstaande foto's zie je hoe slecht de voorgaande reparaties zijn afgewerkt. Gelukkig kon ik de poot repararen en de oude reparaties een goede afwerking geven. Het is een stoer krukje geworden en de reparaties vallen verbazend goed weg in het originele massieve hout.",
+                "mainPicture": "images/reparatie-massief-houten-krukje/massief-houten-krukje.jpg",
+                "pictures": [
+                    "images/reparatie-massief-houten-krukje/reparatie-gebroken-poot.jpg",
+                    "images/reparatie-massief-houten-krukje/reparatie-massief-houten-krukje-1.jpg",
+                    "images/reparatie-massief-houten-krukje/reparatie-massief-houten-krukje-2.jpg",
+                    "images/reparatie-massief-houten-krukje/massief-houten-krukje-5.jpg",
+					"images/reparatie-massief-houten-krukje/detail-massief-houten-krukje.jpg"
                 ]
             }
         ]
