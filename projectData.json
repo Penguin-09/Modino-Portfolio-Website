@@ -118,7 +118,7 @@
                 "name": "Massief houten krukje",
                 "id": "reparatie-massief-houten-krukje",
                 "headerLine": "Massief krukje met een gebroken poot",
-                "description": "<br>Een massief houten krukje, gemaakt uit één stuk hardhout, had een gebroken poot. Daarnaast waren een aantal andere reparaties niet goed afgewerkt, waardoor het massief houten krukje bij het grof vuil kwam te staan. Op een van onderstaande foto's zie je hoe slecht de voorgaande reparaties zijn afgewerkt. Gelukkig kon ik de poot repararen en de oude reparaties een goede afwerking geven. Het is een stoer krukje geworden en de reparaties vallen verbazend goed weg in het originele massieve hout.",
+                "description": "<br>Een massief houten krukje, gemaakt uit één stuk hardhout, had een gebroken poot. Daarnaast waren een aantal andere reparaties niet goed afgewerkt, waardoor het massief houten krukje bij het grof vuil kwam te staan. Op één van onderstaande foto's zie je hoe slecht de voorgaande reparaties zijn afgewerkt. Gelukkig kon ik de poot repararen en de oude reparaties een goede afwerking geven. Het is een stoer krukje geworden en de reparaties vallen verbazend goed weg in het originele massieve hout.",
                 "mainPicture": "images/reparatie-massief-houten-krukje/massief-houten-krukje.jpg",
                 "pictures": [
                     "images/reparatie-massief-houten-krukje/reparatie-gebroken-poot.jpg",
@@ -126,6 +126,17 @@
                     "images/reparatie-massief-houten-krukje/reparatie-massief-houten-krukje-2.jpg",
                     "images/reparatie-massief-houten-krukje/massief-houten-krukje-5.jpg",
 					"images/reparatie-massief-houten-krukje/detail-massief-houten-krukje.jpg"
+                ]
+            },
+            {
+                "name": "Fries tafeltje",
+                "id": "reparatie-fries-tafeltje",
+                "headerLine": "Fries tafeltje met gebroken regel",
+                "description": "<br>Een Fries tafeltje had een gebroken regel. Dezelfde regel is bij een ander Fries tafeltje ook gebroken en de constructie lijkt een zwakke plek. De andere regels vertoonden geen zwakke plekken. De zwakke regel is daarom in zijn geheel vervangen door massief Mahonie. Gelukkig kon ik de kleur goed nabootsen, waardoor de reparatie nauwelijks opvalt. ",
+                "mainPicture": "images/reparatie-Fries-tafeltje/reparatie-regel-tafeltje.jpg",
+                "pictures": [
+                    "images/reparatie-Fries-tafeltje/gebroken-regel.jpg",
+					"images/reparatie-Fries-tafeltje/reparatie-regel.jpg"
                 ]
             }
         ]
