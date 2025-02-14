@@ -70,6 +70,19 @@
                     "images/meubel-klokken-hout/simpele-houten-klok.jpg"
 					
                 ]
+            },
+            {
+                "name": "Boomstam krukje",
+                "id": "boomstam-krukje",
+                "headerLine": "Kruk van een gesnoeide knotwilg en een gekapte spar",
+                "description": "<br>krukje gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Door de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. ",
+                "mainPicture": "images/meubel-boomstam-krukje/boomstam-kruk.jpg",
+                "pictures": [
+					"images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
+                    "images/meubel-boomstam-krukje/boomstam-kruk-2.jpg",
+                    "images/meubel-boomstam-krukje/boomstam-kruk-3.jpg"
+					
+                ]
             }			
         ]
     },
