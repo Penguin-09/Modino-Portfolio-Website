@@ -74,8 +74,8 @@
             {
                 "name": "Boomstam krukje",
                 "id": "boomstam-krukje",
-                "headerLine": "Kruk van een gesnoeide knotwilg en een gekapte spar",
-                "description": "<br>krukje gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Door de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. ",
+                "headerLine": "Krukje van een gesnoeide knotwilg en een gekapte spar",
+                "description": "<br>Krukje gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Van de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. ",
                 "mainPicture": "images/meubel-boomstam-krukje/boomstam-kruk.jpg",
                 "pictures": [
 					"images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
@@ -142,14 +142,17 @@
                 ]
             },
             {
-                "name": "Fries tafeltje",
-                "id": "reparatie-fries-tafeltje",
-                "headerLine": "Fries tafeltje met gebroken regel",
-                "description": "<br>Een Fries tafeltje had een gebroken regel. Dezelfde regel is bij een ander Fries tafeltje ook gebroken en de constructie lijkt een zwakke plek. De andere regels vertoonden geen zwakke plekken. De zwakke regel is daarom in zijn geheel vervangen door massief Mahonie. Gelukkig kon ik de kleur goed nabootsen, waardoor de reparatie nauwelijks opvalt. ",
+                "name": "Friese tafeltjes",
+                "id": "reparatie-friess-tafeltjes",
+                "headerLine": "Twee Friese tafeltjes met een gebroken regel",
+                "description": "<br>Een Fries tafeltje had een gebroken regel. Dezelfde regel is bij een ander Fries tafeltje ook gebroken en de constructie lijkt een zwakke plek. De andere regels vertoonden geen zwakke plekken. De zwakke regel is daarom in zijn geheel vervangen door massief Mahonie. Gelukkig kon ik de kleur goed nabootsen, waardoor de reparatie nauwelijks opvalt. Bij de tweede Friese tafel kon ik gelukkig de regel intact verlijmen, en hoefde ik hem niet te vervangen door een nieuwe regel. ",
                 "mainPicture": "images/reparatie-Fries-tafeltje/reparatie-regel-tafeltje.jpg",
                 "pictures": [
                     "images/reparatie-Fries-tafeltje/gebroken-regel.jpg",
-					"images/reparatie-Fries-tafeltje/reparatie-regel.jpg"
+					"images/reparatie-Fries-tafeltje/reparatie-regel.jpg",
+					"images/reparatie-Fries-tafeltje/Fries-tafeltje-5.jpg",
+					"images/reparatie-Fries-tafeltje/reparatie-gebroken-regel.jpg",
+					"images/reparatie-Fries-tafeltje/gerepareerde-regel.jpg"
                 ]
             }
         ]
