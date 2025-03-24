@@ -65,7 +65,7 @@ foreach ($allProjectData as $category) {
 
                             <?php
                             foreach ($allProjectData as $category) {
-                                echo '<li class="nav-item me-4 mb-1"><a href="index.php#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . $category['category'] . '</a></li>';
+                                echo '<li class="nav-item me-4 mb-1"><a href="index.php#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . str_replace('-', ' ', $category['category']) . '</a></li>';
                             }
                             ?>
 
