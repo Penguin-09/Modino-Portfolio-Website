@@ -68,7 +68,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 
                             <?php
                             foreach ($projectData as $category) {
-                                echo '<li class="nav-item me-3 mb-1"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . str_replace('-', ' ', $category['category']) . '</a></li>';
+                                echo '<li class="nav-item me-3 mb-1"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . str_replace('_', ' ', $category['category']) . '</a></li>';
                             }
                             ?>
 
@@ -102,7 +102,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <!-- PROJECTS -->
             <?php
             foreach ($projectData as $category) {
-                echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center cBackground" id=' . $category['category'] . '><p class="fs-1">' . str_replace('-', ' ', $category['category']) . '</p><div class="d-flex flex-wrap justify-content-between">';
+                echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center cBackground" id=' . $category['category'] . '><p class="fs-1">' . str_replace('_', ' ', $category['category']) . '</p><div class="d-flex flex-wrap justify-content-between">';
 
                 foreach ($category['projects'] as $project) {
                     echo '<a href="detail.php?id=' . $project['id'] . '" class="col-lg-6 p-3 mb-5 rounded" style="width: 49%"><p class="fs-3">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . $project['name'] . '" class="w-50 img-fluid rounded img-hover-zoom" /></a>';

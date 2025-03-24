@@ -25,7 +25,7 @@
                     "images/meubel-Planten-tafel/Planten-tafel-1.jpg",
                     "images/meubel-Planten-tafel/Planten-tafel-2.jpg",
                     "images/meubel-Planten-tafel/Planten-tafel-3.jpg",
-					"images/meubel-Planten-tafel/Planten-tafel-4.jpg"
+                    "images/meubel-Planten-tafel/Planten-tafel-4.jpg"
                 ]
             },
             {
@@ -35,11 +35,11 @@
                 "description": "<br>Hout combineert heel mooi met licht. Hieronder zie je verschillende toepassingen van leds verwerkt met hout. <br> ▪ Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br> ▪ Een sierlamp op een boomstam met een ruige uitstraling.  <br> ▪ Ledstrip lamp, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br> ▪ Wandlamp met ledstrip dat een zacht achtergrond licht geeft.  ",
                 "mainPicture": "images/meubel-Lampen-hout/Nachtkast-planken.jpg",
                 "pictures": [
-					"images/meubel-Lampen-hout/boomstam-lamp.jpg",
+                    "images/meubel-Lampen-hout/boomstam-lamp.jpg",
                     "images/meubel-Lampen-hout/Ledstrip-lamp.jpg",
-					"images/meubel-Lampen-hout/Ledstrip-lamp-1.jpg",
-					"images/meubel-Lampen-hout/wand-lamp.jpg",
-					"images/meubel-Lampen-hout/wand-lamp-1.jpg"
+                    "images/meubel-Lampen-hout/Ledstrip-lamp-1.jpg",
+                    "images/meubel-Lampen-hout/wand-lamp.jpg",
+                    "images/meubel-Lampen-hout/wand-lamp-1.jpg"
                 ]
             },
             {
@@ -49,12 +49,11 @@
                 "description": "<br>Zijtafel met lade, gemaakt van eiken- en kersenhout. Het eikenhout is met vanDycksbruin gebijtst om tot een groter contrast te komen met het kersenhout. De zijden van de lade zijn met handmatig gemaakte zwaluwstaarten met elkaar verbonden. Het geheel is afgewerkt met een olie. ",
                 "mainPicture": "images/meubel-Zijtafel/Houten-tafel.jpg",
                 "pictures": [
-					"images/meubel-Zijtafel/Houten-tafel-1.jpg",
+                    "images/meubel-Zijtafel/Houten-tafel-1.jpg",
                     "images/meubel-Zijtafel/Houten-tafel-2.jpg",
                     "images/meubel-Zijtafel/Houten-tafel-3.jpg",
                     "images/meubel-Zijtafel/eiken-hout.jpg",
                     "images/meubel-Zijtafel/Houten-tafel-4.jpg"
-					
                 ]
             },
             {
@@ -64,11 +63,10 @@
                 "description": "<br>Van een omgehakte spar uit de buurt heb ik kops houten plakken gemaakt en er een klok in verwerkt. De zwarte wijzers steken mooi af bij het lichte, kopse hout. Op deze manier heb ik de spar nog een tweede leven weten te geven. ",
                 "mainPicture": "images/meubel-klokken-hout/houten-klok-2.jpg",
                 "pictures": [
-					"images/meubel-klokken-hout/houten-klok-1.jpg",
+                    "images/meubel-klokken-hout/houten-klok-1.jpg",
                     "images/meubel-klokken-hout/houten-klok-3.jpg",
                     "images/meubel-klokken-hout/houten-klok-4.jpg",
                     "images/meubel-klokken-hout/simpele-houten-klok.jpg"
-					
                 ]
             },
             {
@@ -78,12 +76,11 @@
                 "description": "<br>Krukje gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Van de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. ",
                 "mainPicture": "images/meubel-boomstam-krukje/boomstam-kruk.jpg",
                 "pictures": [
-					"images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
+                    "images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
                     "images/meubel-boomstam-krukje/boomstam-kruk-2.jpg",
                     "images/meubel-boomstam-krukje/boomstam-kruk-3.jpg"
-					
                 ]
-            }			
+            }
         ]
     },
     {
@@ -124,7 +121,7 @@
                 "mainPicture": "images/reparatie-Houten-Tafel/reparatie-Houten-tafel.jpg",
                 "pictures": [
                     "images/reparatie-Houten-Tafel/reparatie-Houten-tafel-1.jpg",
-					"images/reparatie-Houten-Tafel/reparatie-Houten-tafel-2.jpg"
+                    "images/reparatie-Houten-Tafel/reparatie-Houten-tafel-2.jpg"
                 ]
             },
             {
@@ -138,7 +135,7 @@
                     "images/reparatie-massief-houten-krukje/reparatie-massief-houten-krukje-1.jpg",
                     "images/reparatie-massief-houten-krukje/reparatie-massief-houten-krukje-2.jpg",
                     "images/reparatie-massief-houten-krukje/massief-houten-krukje-5.jpg",
-					"images/reparatie-massief-houten-krukje/detail-massief-houten-krukje.jpg"
+                    "images/reparatie-massief-houten-krukje/detail-massief-houten-krukje.jpg"
                 ]
             },
             {
@@ -149,10 +146,10 @@
                 "mainPicture": "images/reparatie-Fries-tafeltje/reparatie-regel-tafeltje.jpg",
                 "pictures": [
                     "images/reparatie-Fries-tafeltje/gebroken-regel.jpg",
-					"images/reparatie-Fries-tafeltje/reparatie-regel.jpg",
-					"images/reparatie-Fries-tafeltje/Fries-tafeltje-5.jpg",
-					"images/reparatie-Fries-tafeltje/reparatie-gebroken-regel.jpg",
-					"images/reparatie-Fries-tafeltje/gerepareerde-regel.jpg"
+                    "images/reparatie-Fries-tafeltje/reparatie-regel.jpg",
+                    "images/reparatie-Fries-tafeltje/Fries-tafeltje-5.jpg",
+                    "images/reparatie-Fries-tafeltje/reparatie-gebroken-regel.jpg",
+                    "images/reparatie-Fries-tafeltje/gerepareerde-regel.jpg"
                 ]
             }
         ]
@@ -183,25 +180,23 @@
                 "headerLine": "Hout en staal",
                 "description": "<br>In deze stukken wordt zwart staal gecombineerd met hout, wat resulteert en een mooi contrast. In de buik van de stalen vogels kan een plantenpot worden geplaatst. De houten ondergrond is gemaakt van de resten van een gekapte spar en gesnoeide takken. ",
                 "mainPicture": "images/kunst-Rare-Vogels/rare-vogel.jpg",
-                "pictures": [
-                    "images/kunst-Rare-Vogels/rare-vogel-1.jpg"
-                ]
+                "pictures": ["images/kunst-Rare-Vogels/rare-vogel-1.jpg"]
             }
         ]
     },
-	{
-        "category": "Electrische-apparaten",
+    {
+        "category": "Electrische_apparaten",
         "projects": [
             {
                 "name": "Workshop",
                 "id": "repareren-electrische-apparaten",
                 "headerLine": "Workshop repareren van huishoudelijke, electrische apparaten",
-                "description": "<br>Huishoudelijke apparaten gaan regelmatig stuk. In een workshop leer je welke stappen je moet doorlopen om een kapot electrisch apparaat door te meten en te analyseren welke component stuk is. Hierbij wordt een vast stappenplan doorlopen en maken de deelnemers gebruik van een multimeter om de diverse electrische componenten door te meten. <br><br> De workshop is bedoeld voor iedereen die de eerste basisbeginselen van het repareren van electrische apparaten wil leren. Er is geen voorkennis vereist. Naast een stuk inleidende theorie over electriciteit, gaat de deelnemer hands-on aan de slag met de multimeter. <br><br> De workshop wordt op regelmatige basis georganiseerd in samenwerking met www.up-utrecht.org. ",
+                "description": "<br>Huishoudelijke apparaten gaan regelmatig stuk. In een workshop leer je welke stappen je moet doorlopen om een kapot electrisch apparaat door te meten en te analyseren welke component stuk is. Hierbij wordt een vast stappenplan doorlopen en maken de deelnemers gebruik van een multimeter om de diverse electrische componenten door te meten. <br><br> De workshop is bedoeld voor iedereen die de eerste basisbeginselen van het repareren van electrische apparaten wil leren. Er is geen voorkennis vereist. Naast een stuk inleidende theorie over electriciteit, gaat de deelnemer hands-on aan de slag met de multimeter. <br><br> De workshop wordt op regelmatige basis georganiseerd in samenwerking met <a href='www.up-utrecht.org'>UP Utrecht</a>. ",
                 "mainPicture": "images/repareren-electrische-apparaten/repareren-espresso-machine.jpg",
                 "pictures": [
                     "images/repareren-electrische-apparaten/repareren-keukenmachine.jpg",
                     "images/repareren-electrische-apparaten/repareren-melkschuimer.jpg",
-					"images/repareren-electrische-apparaten/workshop-repareren.jpg"
+                    "images/repareren-electrische-apparaten/workshop-repareren.jpg"
                 ]
             }
         ]
@@ -218,13 +213,13 @@
                 "pictures": [
                     "images/camper-interieur/usb-plank.jpg",
                     "images/camper-interieur/keukenbakje-1.jpg",
-					"images/camper-interieur/keukenbakje-2.jpg",
-					"images/camper-interieur/bedplank.jpg",
-					"images/camper-interieur/demonteerbaar-tafeltje.jpg",
-					"images/camper-interieur/keukenbakje-1.jpg",
+                    "images/camper-interieur/keukenbakje-2.jpg",
+                    "images/camper-interieur/bedplank.jpg",
+                    "images/camper-interieur/demonteerbaar-tafeltje.jpg",
+                    "images/camper-interieur/keukenbakje-1.jpg",
                     "images/camper-interieur/led-strip-1.jpg",
-					"images/camper-interieur/bed-voetgat.jpg",
-					"images/camper-interieur/simpele-houten-klok.jpg"
+                    "images/camper-interieur/bed-voetgat.jpg",
+                    "images/camper-interieur/simpele-houten-klok.jpg"
                 ]
             }
         ]
