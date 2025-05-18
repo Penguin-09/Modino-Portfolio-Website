@@ -140,16 +140,18 @@
             },
             {
                 "name": "Friese tafeltjes",
-                "id": "reparatie-friess-tafeltjes",
-                "headerLine": "Twee Friese tafeltjes met een gebroken regel",
-                "description": "<br>Een Fries tafeltje had een gebroken regel. Dezelfde regel is bij een ander Fries tafeltje ook gebroken en de constructie lijkt een zwakke plek. De andere regels vertoonden geen zwakke plekken. De zwakke regel is daarom in zijn geheel vervangen door massief Mahonie. Gelukkig kon ik de kleur goed nabootsen, waardoor de reparatie nauwelijks opvalt. Bij de tweede Friese tafel kon ik gelukkig de regel intact verlijmen, en hoefde ik hem niet te vervangen door een nieuwe regel. ",
+                "id": "reparatie-friese-tafeltjes",
+                "headerLine": "Reparatie van Friese tafeltjes voor een particulier",
+                "description": "<br>Een Fries tafeltje had een gebroken regel. Dezelfde regel is bij een ander Fries tafeltje ook gebroken en de constructie lijkt een zwakke plek. De andere regels vertoonden geen zwakke plekken. De zwakke regel is daarom in zijn geheel vervangen door massief Mahonie. Gelukkig kon ik de kleur goed nabootsen, waardoor de reparatie nauwelijks opvalt. Bij de tweede Friese tafel kon ik gelukkig de regel intact verlijmen, en hoefde ik hem niet te vervangen door een nieuwe regel. <br> Een derde Fries (opklapbaar) tafeltje was uit elkaar gevallen en is weer als nieuw in elkaar gezet. ",
                 "mainPicture": "images/reparatie-Fries-tafeltje/reparatie-regel-tafeltje.jpg",
                 "pictures": [
                     "images/reparatie-Fries-tafeltje/gebroken-regel.jpg",
                     "images/reparatie-Fries-tafeltje/reparatie-regel.jpg",
                     "images/reparatie-Fries-tafeltje/Fries-tafeltje-5.jpg",
                     "images/reparatie-Fries-tafeltje/reparatie-gebroken-regel.jpg",
-                    "images/reparatie-Fries-tafeltje/gerepareerde-regel.jpg"
+                    "images/reparatie-Fries-tafeltje/gerepareerde-regel.jpg",
+					"images/reparatie-Fries-tafeltje/Fries-opklapbaar-tafeltje-1.jpg",
+					"images/reparatie-Fries-tafeltje/Fries-opklapbaar-tafeltje-2.jpg"
                 ]
             }
         ]
