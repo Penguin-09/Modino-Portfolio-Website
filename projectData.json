@@ -2,6 +2,19 @@
     {
         "category": "Meubels",
         "projects": [
+		    {
+                "name": "Secretaire",
+                "id": "Secretaire",
+                "headerLine": "Secretaire van een massief houten kist en een rond afgewerkte romp",
+                "description": "<br>Deze secretaire bestaat uit een massief, Iepen houten kist en een ronde romp. De klep sluit precies in de ronding. Hiervoor zijn verschillende rondwerktechnieken gebruikt van zowel multiplex als gelamineerd, massief hout.",
+                "mainPicture": "images/meubel-secretaire/Secretaire.jpg",
+                "pictures": [
+                    "images/meubel-secretaire/lades.jpg",
+                    "images/meubel-secretaire/secretaire-gesloten.jpg",
+                    "images/meubel-secretaire/Lamineren-buigen.jpg",
+                    "images/meubel-secretaire/multiplex-buigen.jpg"
+                ]
+            },
             {
                 "name": "Houten Kist",
                 "id": "meubel-kist",
@@ -187,18 +200,33 @@
         ]
     },
     {
-        "category": "Electrische_apparaten",
+        "category": "Elektrische_apparaten",
         "projects": [
             {
                 "name": "Workshop",
-                "id": "repareren-electrische-apparaten",
-                "headerLine": "Workshop repareren van huishoudelijke, electrische apparaten",
-                "description": "<br>Huishoudelijke apparaten gaan regelmatig stuk. In een workshop leer je welke stappen je moet doorlopen om een kapot electrisch apparaat door te meten en te analyseren welke component stuk is. Hierbij wordt een vast stappenplan doorlopen en maken de deelnemers gebruik van een multimeter om de diverse electrische componenten door te meten. <br><br> De workshop is bedoeld voor iedereen die de eerste basisbeginselen van het repareren van electrische apparaten wil leren. Er is geen voorkennis vereist. Naast een stuk inleidende theorie over electriciteit, gaat de deelnemer hands-on aan de slag met de multimeter. <br><br> De workshop wordt op regelmatige basis georganiseerd in samenwerking met <a href='https://www.up-utrecht.org/'>UP Utrecht</a>. ",
-                "mainPicture": "images/repareren-electrische-apparaten/repareren-espresso-machine.jpg",
+                "id": "Analyseren-elektrische-apparaten",
+                "headerLine": "Analyseren van kapotte, huishoudelijke, elektrische apparaten",
+                "description": "<br>Huishoudelijke apparaten gaan regelmatig stuk. In een workshop leer je welke stappen je moet doorlopen om een kapot elektrisch apparaat door te meten en te analyseren welk component stuk is. Hierbij wordt een vast stappenplan doorlopen en maken de deelnemers gebruik van een multimeter om de diverse elektrische componenten door te meten. <br><br> De workshop is bedoeld voor iedereen die de eerste basisbeginselen van het repareren van elektrische apparaten wil leren. Er is geen voorkennis vereist. Naast een stuk inleidende theorie over elektriciteit, gaat de deelnemer hands-on aan de slag met de multimeter. <br><br> De workshop wordt op regelmatige basis georganiseerd in samenwerking met <a href='https://www.up-utrecht.org/'>UP Utrecht</a>. ",
+                "mainPicture": "images/elektrische-apparaten-workshop/repareren-espresso-machine.jpg",
                 "pictures": [
-                    "images/repareren-electrische-apparaten/repareren-keukenmachine.jpg",
-                    "images/repareren-electrische-apparaten/repareren-melkschuimer.jpg",
-                    "images/repareren-electrische-apparaten/workshop-repareren.jpg"
+                    "images/elektrische-apparaten-workshop/repareren-keukenmachine.jpg",
+                    "images/elektrische-apparaten-workshop/repareren-melkschuimer.jpg",
+                    "images/elektrische-apparaten-workshop/workshop-repareren.jpg"
+                ]
+            },
+            {
+                "name": "Cursus",
+                "id": "elektrische-apparaten-cursus",
+                "headerLine": "Repareren van kapotte, huishoudelijke, elektrische apparaten",
+                "description": "<br>In samenwerking met <a href='https://www.repaircafe.org/'>Repair Café International</a>, <a href='https://openbarewerkplaats.nl/shop/techniek/elektrische-apparaten-repareren/elektrische-apparaten-repareren/'>Openbare Werkplaats</a> en Gemeente Amsterdam is een cursus 'Repareren elektrische apparaten' opgezet. Het doel is om mensen te leren zelf kapotte, huishoudelijke, elektrische apparaten te analyseren en te repareren. Voor deze cursus worden kapotte apparaten van het grofvuil gehaald en na reparatie terug de kringloop ingebracht. ",
+                "mainPicture": "images/elektrische-apparaten-cursus/analyseren-melkschuimer.jpg",
+                "pictures": [
+                    "images/elektrische-apparaten-cursus/analyseren-staafmixer.jpg",
+                    "images/elektrische-apparaten-cursus/kapot-espresso-apparaat.jpg",
+                    "images/elektrische-apparaten-cursus/kapotte-printplaat.jpg",
+					"images/elektrische-apparaten-cursus/kapotte-weerstand.jpg",
+                    "images/elektrische-apparaten-cursus/bak-weerstanden.jpg",
+                    "images/elektrische-apparaten-cursus/potmeter.jpg"
                 ]
             }
         ]
