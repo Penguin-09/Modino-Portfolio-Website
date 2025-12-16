@@ -25,7 +25,7 @@
                     "images/meubel-Kist/houten-kist-1.jpg",
                     "images/meubel-Kist/houten-kist-2.jpg",
                     "images/meubel-Kist/houten-kist-3.jpg",
-                    "images/meubel-Kist/houten-kist-4.jpg"
+                    "images/meubel-Kist/houten-kist-4.jpg" 
                 ]
             },
             {
@@ -45,16 +45,26 @@
                 "name": "Lampen",
                 "id": "Lampen-van-hout",
                 "headerLine": "Lampen van hout",
-                "description": "<br>Hout combineert heel mooi met licht. Hieronder zie je verschillende toepassingen van leds verwerkt met hout. <br> ▪ Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrond licht krijgt bij deze 'nachtkast planken'.  <br> ▪ Een sierlamp op een boomstam met een ruige uitstraling.  <br> ▪ Ledstrip lamp, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br> ▪ Wandlamp met ledstrip dat een zacht achtergrond licht geeft.  ",
+                "description": "<br>Hout combineert heel mooi met licht. Hieronder zie je verschillende toepassingen van leds verwerkt met hout. <br> ▪ Achter een tweetal houten planken is een ledstrip verwerkt, waardoor je een mooi achtergrondlicht krijgt bij deze 'nachtkast planken'.  <br> ▪ Een sierlamp op een boomstam met een ruige uitstraling.  <br> ▪ Ledstrip lamp, ontworpen voor in een camper. De strip is afgewerkt met een fineer en is slechts 5 milimeter dik. <br> ▪ Wandlamp met ledstrip dat een zacht achtergrondlicht geeft.  ",
                 "mainPicture": "images/meubel-Lampen-hout/Nachtkast-planken.jpg",
                 "pictures": [
                     "images/meubel-Lampen-hout/boomstam-lamp.jpg",
                     "images/meubel-Lampen-hout/Ledstrip-lamp.jpg",
                     "images/meubel-Lampen-hout/Ledstrip-lamp-1.jpg",
-                    "images/meubel-Lampen-hout/wand-lamp.jpg",
-                    "images/meubel-Lampen-hout/wand-lamp-1.jpg"
+                    "images/meubel-Lampen-hout/muur-lamp.jpg",
+                    "images/meubel-Lampen-hout/muur-lamp-1.jpg"
                 ]
             },
+            {
+                "name": "Wandplanken",
+                "id": "Wandplanken",
+                "headerLine": "Smalle wandplanken",
+                "description": "<br>Smalle wandplanken voor planten, sleutels, boeken of kinderkunst. De poten zijn gemaakt van vuren hout, de planken zijn van Okoumé multiplex en zijn afgewerkt met een mahonie herlijst.",
+                "mainPicture": "images/meubel-wandplanken/meubel-wandplanken-1.jpg",
+                "pictures": [
+                    
+                ]
+            },			
             {
                 "name": "Zijtafel",
                 "id": "houten-tafel",
@@ -91,7 +101,10 @@
                 "pictures": [
                     "images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
                     "images/meubel-boomstam-krukje/boomstam-kruk-2.jpg",
-                    "images/meubel-boomstam-krukje/boomstam-kruk-3.jpg"
+                    "images/meubel-boomstam-krukje/boomstam-kruk-3.jpg",
+					"images/meubel-boomstam-krukje/boomstam-kruk-4.jpg",
+					"images/meubel-boomstam-krukje/boomstam-kruk-5.jpg",
+					"images/meubel-boomstam-krukje/boomstam-kruk-6.jpg"
                 ]
             }
         ]
@@ -100,6 +113,19 @@
         "category": "Reparaties",
         "projects": [
             {
+                "name": "bootluiken",
+                "id": "reparatie-bootluiken",
+                "headerLine": "Reparatie van vier antieke doosjes",
+                "description": "<br>Voor een klant heb ik twee bootluiken gerepareerd die sterk verweerd en zelfs verrot waren door weer en wind. Verrot en gespleten hout is weggehaald en vervangen en de bootluiken zijn bewerkt om weer langdurig mee te kunnen gaan. De bootluiken zijn weer in gebruik. ",
+                "mainPicture": "images/reparatie-bootluiken/reparatie-bootluiken-12.jpg",
+                "pictures": [
+                    "images/reparatie-bootluiken/reparatie-bootluiken-1.jpg",
+					"images/reparatie-bootluiken/reparatie-bootluiken-3.jpg",
+					"images/reparatie-bootluiken/reparatie-bootluiken-8.jpg",
+					"images/reparatie-bootluiken/reparatie-bootluiken-11.jpg"
+					]
+            },            
+			{
                 "name": "Antieke doosjes",
                 "id": "reparatie-antieke-doosjes",
                 "headerLine": "Reparatie van vier antieke doosjes",
