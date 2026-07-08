@@ -6,11 +6,13 @@
                 "name": "Secretaire",
                 "id": "Secretaire",
                 "headerLine": "Secretaire van een massief houten kist en een rond afgewerkte romp",
-                "description": "<br>Deze secretaire bestaat uit een massief, Iepen houten kist en een ronde romp. De klep sluit precies in de ronding. Hiervoor zijn verschillende rondwerktechnieken gebruikt van zowel multiplex als gelamineerd, massief hout.",
+                "description": "<br>Deze secretaire bestaat uit een massief, Iepen houten kist en een ronde romp. De klep sluit precies in de ronding. Hiervoor zijn verschillende rondwerktechnieken gebruikt van zowel multiplex als gelamineerd, massief hout. Bij de foto's zie je ook een stap van het buigproces.",
                 "mainPicture": "images/meubel-secretaire/Secretaire.jpg",
                 "pictures": [
                     "images/meubel-secretaire/lades.jpg",
                     "images/meubel-secretaire/secretaire-gesloten.jpg",
+					"images/meubel-secretaire/Secretaire-open.jpg", 
+					"images/meubel-secretaire/secretaire-kast.jpg",
                     "images/meubel-secretaire/Lamineren-buigen.jpg",
                     "images/meubel-secretaire/multiplex-buigen.jpg"
                 ]
@@ -41,6 +43,30 @@
                     "images/meubel-Planten-tafel/Planten-tafel-4.jpg"
                 ]
             },
+            {
+                "name": "Nachtkastje",
+                "id": "Nachtkastje",
+                "headerLine": "Maatwerk nachtkastje van eikenhout",
+                "description": "<br>Nachtkastje, gemaakt voor een specifieke hoek en hoogte, waarbij een stopcontact bereikbaar moest blijven. ",
+                "mainPicture": "images/meubel-nachtkastje/Nachtkastje.jpg",
+                "pictures": [
+                    "images/meubel-nachtkastje/nachtkastje-2.jpg",
+                    "images/meubel-nachtkastje/nachtkastje-detail.jpg",
+                    "images/meubel-nachtkastje/nachtkastje-ingebruik.jpg"
+                ]
+            },
+            {
+                "name": "3D legplanken",
+                "id": "3D-legplanken",
+                "headerLine": "Rond afgewerkte 3D legplanken",
+                "description": "<br>Drie dimensionale legplanken voor het creëren van extra ruimte in een verloren hoek. Afgewerkt met rondingen. Gemaakt van Vurenhout. ",
+                "mainPicture": "images/meubel-3D-legplanken/3D-legplanken.jpg",
+                "pictures": [
+                    "images/meubel-3D-legplanken/3D-legplanken-2.jpg",
+                    "images/meubel-3D-legplanken/3D-legplanken-hoek.jpg",
+                    "images/meubel-3D-legplanken/3D-legplanken-ronding.jpg"
+                ]
+            },			
             {
                 "name": "Lampen",
                 "id": "Lampen-van-hout",
@@ -95,8 +121,8 @@
             {
                 "name": "Boomstam krukje",
                 "id": "boomstam-krukje",
-                "headerLine": "Krukje van een gesnoeide knotwilg en een gekapte spar",
-                "description": "<br>Krukje gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Van de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. ",
+                "headerLine": "Krukjes van een gesnoeide knotwilg en een gekapte spar",
+                "description": "<br>Krukjes, gemaakt van de takken van een gesnoeide knotwilg en een dwars doorgezaagde spar. Van de dwarsgezaagde spar zijn de jaarringen goed te zien in het kopse hout. Het krukje is sterk genoeg om op te zitten en kan ook als (planten-)tafeltje gebruikt worden. De scheur wordt veroorzaakt door het natuurlijk drogen van de bonk hout aan de buitenlucht. De poten zijn in drie verschillende uitvoeringen gemaakt. ",
                 "mainPicture": "images/meubel-boomstam-krukje/boomstam-kruk.jpg",
                 "pictures": [
                     "images/meubel-boomstam-krukje/boomstam-kruk-1.jpg",
