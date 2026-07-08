@@ -6,14 +6,15 @@
                 "name": "Secretaire",
                 "id": "Secretaire",
                 "headerLine": "Secretaire van een massief houten kist en een rond afgewerkte romp",
-                "description": "<br>Deze secretaire bestaat uit een massief, Iepen houten kist en een ronde romp. De klep sluit precies in de ronding. Hiervoor zijn verschillende rondwerktechnieken gebruikt van zowel multiplex als gelamineerd, massief hout. Bij de foto's zie je ook een stap van het buigproces.",
-                "mainPicture": "images/meubel-secretaire/Secretaire.jpg",
+                "description": "<br>Deze secretaire is gemaakt van een massief, Iepen houten kist en een ronde romp. De klep sluit precies in de ronding. Hiervoor zijn verschillende rondwerktechnieken gebruikt van zowel multiplex als gelamineerd, massief hout. Bij de foto's zie je ook een stap van het buigproces.",
+                "mainPicture": "images/meubel-secretaire/secretaire.jpg",
                 "pictures": [
-                    "images/meubel-secretaire/lades.jpg",
+                    "images/meubel-secretaire/secretaire-2.jpg",
+					"images/meubel-secretaire/lades.jpg",
                     "images/meubel-secretaire/secretaire-gesloten.jpg",
-					"images/meubel-secretaire/Secretaire-open.jpg", 
+					"images/meubel-secretaire/secretaire-open.jpg", 
 					"images/meubel-secretaire/secretaire-kast.jpg",
-                    "images/meubel-secretaire/Lamineren-buigen.jpg",
+                    "images/meubel-secretaire/lamineren-buigen.jpg",
                     "images/meubel-secretaire/multiplex-buigen.jpg"
                 ]
             },
@@ -48,7 +49,7 @@
                 "id": "Nachtkastje",
                 "headerLine": "Maatwerk nachtkastje van eikenhout",
                 "description": "<br>Nachtkastje, gemaakt voor een specifieke hoek en hoogte, waarbij een stopcontact bereikbaar moest blijven. ",
-                "mainPicture": "images/meubel-nachtkastje/Nachtkastje.jpg",
+                "mainPicture": "images/meubel-nachtkastje/nachtkastje.jpg",
                 "pictures": [
                     "images/meubel-nachtkastje/nachtkastje-2.jpg",
                     "images/meubel-nachtkastje/nachtkastje-detail.jpg",
@@ -141,7 +142,7 @@
             {
                 "name": "bootluiken",
                 "id": "reparatie-bootluiken",
-                "headerLine": "Reparatie van vier antieke doosjes",
+                "headerLine": "Reparatie van twee bootluiken",
                 "description": "<br>Voor een klant heb ik twee bootluiken gerepareerd die sterk verweerd en zelfs verrot waren door weer en wind. Verrot en gespleten hout is weggehaald en vervangen en de bootluiken zijn bewerkt om weer langdurig mee te kunnen gaan. De bootluiken zijn weer in gebruik. ",
                 "mainPicture": "images/reparatie-bootluiken/reparatie-bootluiken-12.jpg",
                 "pictures": [
