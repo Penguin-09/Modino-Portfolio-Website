@@ -2,6 +2,9 @@ User-agent: *
 Disallow: /
 Crawl-delay: 2
 
+User-agent: Claude-User
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 

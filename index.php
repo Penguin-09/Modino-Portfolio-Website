@@ -6,11 +6,11 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Modino</title>
+        <title>Modino | Maatwerk houten meubels en houtkunst & Workshops Elektrische Apparaten Repareren</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
