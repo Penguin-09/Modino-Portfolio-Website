@@ -11,7 +11,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Modino | Maatwerk houten meubels en houtkunst & Workshops Elektrische Apparaten Repareren</title>
-		<meta name="description" content="Modino maakt maatwerk houten meubels, camperinterieur en kunstobjecten. Workshops Elektrische Apparaten Repareren">
+		<meta name="description" content="Modino maakt maatwerk en repareert houten meubels en camperinterieur. Workshops Elektrische Apparaten Repareren">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -117,7 +117,12 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             <div class="row mt-5 mb-5 d-flex justify-content-center" id="contact">
                 <div class="col-lg-8 border rounded pt-3 pb-3 text-center cBackground">
                     <p class="fs-1">Contact</p>
-					<img src="images/contact.png" alt="contact" class="w-20 img-fluid rounded">
+					<img src="images/contact.png" alt="contact" class="img-fluid rounded" style="max-width: 230px; margin-bottom: -20px;">
+					<div class="d-flex align-items-center mx-auto mt-2" style="max-width: 230px; transform: translateX(23px);">
+						<i class="bi bi-geo-alt-fill me-2"></i>
+						<span> Amsterdam</span>
+					</div>
+					<p>&nbsp;</p>
                 </div>
             </div>
 
@@ -125,7 +130,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 
         <!-- FOOTER -->
         <div class="border-top p-5 text-center cBackground">
-            <p class="m-0 p-0">© Copyright, Modino, All rights reserved, 2025</p>
+            <p class="m-0 p-0">© Copyright, Modino, All rights reserved, 2026</p>
         </div>
 
         <script
