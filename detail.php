@@ -110,7 +110,7 @@ foreach ($allProjectData as $category) {
 
     <!-- FOOTER -->
     <div class="border-top m-0 mt-5 p-5 text-center cBackground">
-        <p class="m-0 p-0">© Copyright, Modino, All rights reserved, 2025</p>
+        <p class="m-0 p-0">© Copyright, Modino, All rights reserved, 2026</p>
     </div>
 
     <script
