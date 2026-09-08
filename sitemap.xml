@@ -5,107 +5,39 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>https://modino.nl/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://modino.nl/index.php</loc>
-  <priority>1.00</priority>
-</url>
+<url><loc>https://modino.nl/</loc><lastmod>2026-09-08</lastmod><priority>1.00</priority></url>
+<url><loc>https://modino.nl/index.php</loc><lastmod>2026-09-08</lastmod><priority>0.80</priority></url>
 
 <!-- Meubels -->
-<url>
-  <loc>https://modino.nl/detail.php?id=Secretaire</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=meubel-kist</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=plantentafel</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=Nachtkastje</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=3D-legplanken</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=Lampen-van-hout</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=Wandplanken</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=houten-tafel</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=houten-klokken</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=boomstam-krukje</loc>
-  <priority>0.80</priority>
-</url>
+<url><loc>https://modino.nl/detail.php?id=Schoenenbank</loc><lastmod>2026-08-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=Secretaire</loc><lastmod>2025-06-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=meubel-kist</loc><lastmod>2023-12-15</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=plantentafel</loc><lastmod>2024-06-15</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=Nachtkastje</loc><lastmod>2026-01-15</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=3D-legplanken</loc><lastmod>2025-11-01</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=Lampen-van-hout</loc><lastmod>2021-07-15</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=Wandplanken</loc><lastmod>2018-03-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=houten-tafel</loc><lastmod>2024-12-31</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=houten-klokken</loc><lastmod>2026-03-10</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=boomstam-krukje</loc><lastmod>2025-02-28</lastmod><priority>0.80</priority></url>
 
 <!-- Reparaties -->
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-bootluiken</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-antieke-doosjes</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-houten-stoel</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-houten-tafel</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-massief-houten-krukje</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=reparatie-friese-tafeltjes</loc>
-  <priority>0.80</priority>
-</url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-bootluiken</loc><lastmod>2025-11-10</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-antieke-doosjes</loc><lastmod>2025-02-20</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-houten-stoel</loc><lastmod>2025-05-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-houten-tafel</loc><lastmod>2023-10-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-massief-houten-krukje</loc><lastmod>2025-01-20</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=reparatie-friese-tafeltjes</loc><lastmod>2025-02-20</lastmod><priority>0.80</priority></url>
 
 <!-- Houtkunst -->
-<url>
-  <loc>https://modino.nl/detail.php?id=kunst-hout-mozaiek</loc>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=Hout-en-staal</loc>
-  <priority>0.60</priority>
-</url>
+<url><loc>https://modino.nl/detail.php?id=kunst-hout-mozaiek</loc><lastmod>2026-09-08</lastmod><priority>0.60</priority></url>
+<url><loc>https://modino.nl/detail.php?id=Hout-en-staal</loc><lastmod>2026-09-08</lastmod><priority>0.60</priority></url>
 
 <!-- Elektrische apparaten -->
-<url>
-  <loc>https://modino.nl/detail.php?id=Analyseren-elektrische-apparaten</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://modino.nl/detail.php?id=elektrische-apparaten-cursus</loc>
-  <priority>0.70</priority>
-</url>
+<url><loc>https://modino.nl/detail.php?id=Analyseren-elektrische-apparaten</loc><lastmod>2026-08-30</lastmod><priority>0.80</priority></url>
+<url><loc>https://modino.nl/detail.php?id=elektrische-apparaten-cursus</loc><lastmod>2026-08-30</lastmod><priority>0.80</priority></url>
 
 <!-- Camperinterieur -->
-<url>
-  <loc>https://modino.nl/detail.php?id=camper-interieur</loc>
-  <priority>0.80</priority>
-</url>
+<url><loc>https://modino.nl/detail.php?id=camper-interieur</loc><lastmod>2024-07-01</lastmod><priority>0.60</priority></url>
 
 </urlset>

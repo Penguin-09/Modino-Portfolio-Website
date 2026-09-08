@@ -2,9 +2,6 @@ User-agent: *
 Disallow: /
 Crawl-delay: 2
 
-User-agent: Claude-User
-Disallow:
-
 User-agent: Googlebot
 Disallow:
 
@@ -19,3 +16,40 @@ Disallow:
 
 User-agent: Swiftbot
 Disallow:
+
+# AI-antwoordmachines / citatie-bots
+User-agent: OAI-SearchBot
+Disallow:
+
+User-agent: ChatGPT-User
+Disallow:
+
+User-agent: Claude-SearchBot
+Disallow:
+
+User-agent: Claude-User
+Disallow:
+
+User-agent: PerplexityBot
+Disallow:
+
+User-agent: Perplexity-User
+Disallow:
+
+# AI-trainingsbots (optioneel — zie toelichting)
+User-agent: GPTBot
+Disallow:
+
+User-agent: ClaudeBot
+Disallow:
+
+User-agent: anthropic-ai
+Disallow:
+
+User-agent: Google-Extended
+Disallow:
+
+User-agent: CCBot
+Disallow:
+
+Sitemap: https://modino.nl/sitemap.xml
