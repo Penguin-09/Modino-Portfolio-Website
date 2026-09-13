@@ -142,10 +142,10 @@ foreach ($allProjectData as $category) {
         <div class="row mt-5 d-flex justify-content-center">
             <div class="col-lg-8 border rounded d-flex justify-content-center flex-wrap cBackground">
             <!-- MAIN IMAGE -->
-            <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $projectData['mainPicture'] ?> alt="Main Picture" class="img-fluid rounded m-3 img-hover-zoom"></div>
+            <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $projectData['mainPicture'] ?> alt="<?= pathinfo($projectData['mainPicture'], PATHINFO_FILENAME) ?>" class="img-fluid rounded m-3 img-hover-zoom"></div>
 
             <?php foreach ($projectData['pictures'] as $picture) { ?>
-                <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="Picture" class="img-fluid rounded m-3 img-hover-zoom"></div>
+                <div class="col-lg-3 d-flex align-items-center m-3"><img src=<?= $picture ?> alt="<?= pathinfo($picture, PATHINFO_FILENAME) ?>" class="img-fluid rounded m-3 img-hover-zoom"></div>
             <?php } ?>
             </div>
         </div>

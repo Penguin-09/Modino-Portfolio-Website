@@ -140,9 +140,9 @@ $allProjectData = json_decode(file_get_contents('projectData.json'), true);
             foreach ($allProjectData as $category) {
                 echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center cBackground" id=' . $category['category'] . '><p class="fs-1">' . str_replace('_', ' ', $category['category']) . '</p><div class="d-flex flex-wrap justify-content-between">';
 
-                foreach ($category['projects'] as $project) {
-                    echo '<a href="detail.php?id=' . $project['id'] . '" class="col-lg-6 p-3 mb-5 rounded" style="width: 49%"><p class="fs-3">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . $project['name'] . '" class="w-50 img-fluid rounded img-hover-zoom" /></a>';
-                }
+				foreach ($category['projects'] as $project) {
+					echo '<a href="detail.php?id=' . $project['id'] . '" class="col-lg-6 p-3 mb-5 rounded" style="width: 49%"><p class="fs-3">' . $project['name'] . '</p> <p>' . $project['headerLine'] . '</p><img src="' . $project['mainPicture'] . '" alt="' . pathinfo($project['mainPicture'], PATHINFO_FILENAME) . '" class="w-50 img-fluid rounded img-hover-zoom" /></a>';
+				}                
 
                 echo '</div></div></div>';
             }
