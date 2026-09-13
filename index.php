@@ -1,12 +1,14 @@
 <?php
 
-// Get the data from the JSON file
-$projectData = json_decode(file_get_contents('projectData.json'), true);
+// Get the business data and project data from the JSON files
+$businessData = json_decode(file_get_contents('businessData.json'), true);
+$allProjectData = json_decode(file_get_contents('projectData.json'), true);
 
 ?>
 
 <!DOCTYPE html>
 <html lang="nl">
+
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +25,38 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         />
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+		// AI SEO: business data:
+        <script type="application/ld+json">
+			<?php
+			echo json_encode([
+				"@context" => "https://schema.org",
+				"@type" => "LocalBusiness",
+				"name" => $businessData['businessName'],
+				"url" => "https://modino.nl/",
+				"description" => $businessData['description'],
+				"founder" => [
+					"@type" => "Person",
+					"name" => $businessData['founder']
+				],
+				"areaServed" => [
+					"@type" => "City",
+					"name" => $businessData['areaServed']
+				],
+				"makesOffer" => array_map(function ($service) {
+					return [
+						"@type" => "Offer",
+						"itemOffered" => [
+							"@type" => "Service",
+							"name" => $service['name'],
+							"description" => $service['description']
+						]
+					];
+				}, $businessData['services'])
+			], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+			?>
+        </script>
+		
         <style>
             .btn-outline-light:hover {
                 text-shadow: none !important;
@@ -48,6 +82,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 			}
         </style>
     </head>
+	
     <body class="bg-dark text-light">
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-2 m-0 cBackground">
@@ -68,7 +103,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
                             </li>
 
                             <?php
-                            foreach ($projectData as $category) {
+                            foreach ($allProjectData as $category) {
                                 echo '<li class="nav-item me-3 mb-1"><a href="#' . $category['category'] . '" class="btn btn-outline-light fs-6">' . str_replace('_', ' ', $category['category']) . '</a></li>';
                             }
                             ?>
@@ -102,7 +137,7 @@ $projectData = json_decode(file_get_contents('projectData.json'), true);
 
             <!-- PROJECTS -->
             <?php
-            foreach ($projectData as $category) {
+            foreach ($allProjectData as $category) {
                 echo '<div class="row mt-5 d-flex justify-content-center"><div class="col-lg-8 border p-3 rounded text-center cBackground" id=' . $category['category'] . '><p class="fs-1">' . str_replace('_', ' ', $category['category']) . '</p><div class="d-flex flex-wrap justify-content-between">';
 
                 foreach ($category['projects'] as $project) {

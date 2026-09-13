@@ -1,13 +1,16 @@
 <?php
 
-// Get the data from the JSON file
+// Get the business data and project data from the JSON files
+$businessData = json_decode(file_get_contents('businessData.json'), true);
 $allProjectData = json_decode(file_get_contents('projectData.json'), true);
+
 $projectID = $_GET['id'];
 
 foreach ($allProjectData as $category) {
     foreach ($category['projects'] as $project) {
         if ($project['id'] == $projectID) {
             $projectData = $project;
+			$projectCategory = $category['category'];
             break 2;
         }
     }
@@ -32,7 +35,46 @@ foreach ($allProjectData as $category) {
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-        />
+        />	
+	    
+	// AI SEO: Creative work en Breadcrumblist : 
+    <script type="application/ld+json">
+		<?php
+		echo json_encode([
+			"@context" => "https://schema.org",
+			"@type" => "CreativeWork",
+			"name" => $projectData['name'],
+			"headline" => $projectData['headerLine'],
+			"description" => htmlspecialchars(strip_tags($projectData['description'])),
+			"image" => "https://modino.nl/" . $projectData['mainPicture'],
+			"url" => "https://modino.nl/detail.php?id=" . $projectData['id'],
+			"creator" => [
+				"@type" => "Person",
+				"name" => $businessData['founder']
+			],
+			"about" => str_replace('_', ' ', $projectCategory),
+			"isPartOf" => [
+				"@type" => "WebSite",
+				"name" => $businessData['businessName'],
+				"url" => "https://modino.nl/"
+			]
+		], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+		?>
+			</script>
+			<script type="application/ld+json">
+		<?php
+		echo json_encode([
+			"@context" => "https://schema.org",
+			"@type" => "BreadcrumbList",
+			"itemListElement" => [
+				["@type" => "ListItem", "position" => 1, "name" => "Home", "item" => "https://modino.nl/"],
+				["@type" => "ListItem", "position" => 2, "name" => str_replace('_', ' ', $projectCategory), "item" => "https://modino.nl/index.php#" . $projectCategory],
+				["@type" => "ListItem", "position" => 3, "name" => $projectData['name'], "item" => "https://modino.nl/detail.php?id=" . $projectData['id']]
+			]
+		], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+		?>
+    </script>
+	
     <style>
         .cBackground {
             background-color:rgb(40, 44, 48);
@@ -45,6 +87,7 @@ foreach ($allProjectData as $category) {
         }
     </style>
 </head>
+
 <body class="bg-dark text-light">
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg text-light border-bottom sticky-top p-2 m-0 cBackground">

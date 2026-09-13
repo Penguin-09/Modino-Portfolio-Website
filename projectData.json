@@ -3,6 +3,20 @@
         "category": "Meubels",
         "projects": [
 		    {
+                "name": "Schoenenbank",
+                "id": "Schoenenbank",
+                "metaTitle": "Schoenenbank met ronde hardhouten afwerking",
+                "headerLine": "Schoenenbank van buigplex en hardhouten herlijst",
+                "description": "<br>Een schoenenbank, gemaakt van 6 lagen buigplex met een hardhouten herlijst. De ronde vorm is gemaakt door 6 lagen buigplex te lamineren en in een vacuümzak op een mal in de gewenste vorm te verljmen. De twee houtsoorten zijn op een verschillende manier afgewerkt om de kleurverschillen te benadrukken. ",
+                "mainPicture": "images/meubel-schoenenbank/Schoenenbank.jpg",
+                "pictures": [
+                    "images/meubel-schoenenbank/Schoenenbank-bovenaanzicht.jpg",
+					"images/meubel-schoenenbank/Schoenenbank-doorkijk.jpg",
+                    "images/meubel-schoenenbank/Schoenenbank-herlijst.jpg",
+					"images/meubel-schoenenbank/Schoenenbank-ronding.jpg"
+                ]
+            },
+		    {
                 "name": "Secretaire",
                 "id": "Secretaire",
                 "metaTitle": "Secretaire met ronde afwerking",
@@ -291,7 +305,7 @@
                 "id": "elektrische-apparaten-cursus",
                 "metaTitle": "Cursus elektrische apparaten repareren",
                 "headerLine": "Repareren van kapotte, huishoudelijke, elektrische apparaten",
-                "description": "<br>In samenwerking met <a href='https://www.repaircafe.org/'>Repair Café International</a>, <a href='https://openbarewerkplaats.nl/shop/techniek/elektrische-apparaten-repareren/elektrische-apparaten-repareren/'>Openbare Werkplaats</a> en Gemeente Amsterdam is een cursus 'Repareren elektrische apparaten' opgezet. Het doel is om mensen te leren zelf kapotte, huishoudelijke, elektrische apparaten te analyseren en te repareren. Voor deze cursus worden kapotte apparaten van het grofvuil gehaald en na reparatie terug de kringloop ingebracht. ",
+                "description": "<br>In samenwerking met <a href='https://www.repaircafe.org/'>Repair Café International</a>, <a href='https://openbarewerkplaats.nl/shop/techniek/elektrische-apparaten-repareren/elektrische-apparaten-repareren/'>Openbare Werkplaats</a> en Gemeente Amsterdam is een cursus 'Repareren elektrische apparaten' van drie avonden opgezet. Het doel is om mensen te leren zelf kapotte, huishoudelijke, elektrische apparaten te analyseren en te reparerenmet behulp van een multimeter. Voor deze cursus worden kapotte apparaten van het grofvuil gehaald en na reparatie terug de kringloop ingebracht. ",
                 "mainPicture": "images/elektrische-apparaten-cursus/analyseren-melkschuimer.jpg",
                 "pictures": [
                     "images/elektrische-apparaten-cursus/analyseren-staafmixer.jpg",

@@ -1,0 +1,20 @@
+{
+    "businessName": "Modino",
+    "founder": "Bart van der Burg",
+    "description": "Modino maakt maatwerk meubels van tweedehands en resthout, repareert houten meubels en organiseert workshops en cursussen over het repareren van elektrische apparaten.",
+    "areaServed": "Amsterdam",
+    "services": [
+        {
+            "name": "Maatwerk meubels",
+            "description": "Ontwerp en vervaardiging van maatwerk meubels van tweedehands, hergebruikt of resthout."
+        },
+        {
+            "name": "Houten meubel reparaties",
+            "description": "Reparatie van houten meubels en objecten, van antiek tot modern."
+        },
+        {
+            "name": "Workshops en cursussen elektrische apparaten repareren",
+            "description": "Workshops en cursussen waarin deelnemers leren kapotte, huishoudelijke elektrische apparaten te analyseren en te repareren."
+        }
+    ]
+}
